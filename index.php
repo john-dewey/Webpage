@@ -52,7 +52,7 @@
 
 				<!-- Information -->
 				<div class="left-header">
-					<web-header1>Welcome to my Page Im so done</web-header1>
+					<web-header1>Welcome to my Page Test</web-header1>
 				</div>
 
 
