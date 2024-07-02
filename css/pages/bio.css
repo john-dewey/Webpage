@@ -1,0 +1,68 @@
+
+
+.header{
+    display: block;
+    margin: 10px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.top-box{
+    display: block;
+    border: 3px solid #000000;
+    background-color: #7c7c7c;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+    width: 25%;
+}
+
+.top-picture{
+    display: block;
+    margin: 0 25px;
+}
+
+.bottom
+{
+    display: block;
+    align-self: center;
+
+    border: 3px solid #000000;
+    background-color: #7c7c7c;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+
+    width: 75%;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.file{
+    display: block;
+}
+
+.filename{
+    display: block;
+    margin: 0 0 0 15px;
+}

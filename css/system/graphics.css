@@ -1,0 +1,370 @@
+/* Index */
+
+.graphic-CFA{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    
+    background-image: url("../../resources/index/CFA.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+  }
+
+  .graphic-outright{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    margin: 0 25px 0 0;
+    
+    background-image: url("../../resources/index/outright.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+  }
+
+  .graphic-KOC{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    margin: 0 25px 0 0;
+    
+    background-image: url("../../resources/index/KOC.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+
+  }
+
+  .graphic-NCTE{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    margin: 0 25px 0 0;
+    
+    background-image: url("../../resources/index/NCTE.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+
+  }
+
+
+
+
+
+
+  /* Bio */
+
+  .graphic-profile{
+    margin: 10px 0 0 0;
+    border: 3px solid #000000;
+    border-radius: 25px; 
+    background-image: url("../../resources/bio/me.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+
+  
+    width: 300px;
+    height: 400px;
+  }
+
+  .graphic-X{
+    background-image: url("../../resources/logos/twitter.png");
+    background-size: cover; 
+
+
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+.graphic-mail{
+    background-image: url("../../resources/logos/mail.png");
+    background-size: cover; 
+
+
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+.graphic-linkedin{
+    background-image: url("../../resources/logos/linkedin.png");
+    background-size: cover; 
+
+
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+.graphic-github{
+    background-image: url("../../resources/logos/github.png");
+    background-size: cover;
+
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
+/* Projects */
+
+.graphic-deepdrug{
+    background-image: url("../../resources/projects/deepdrug.png");
+    background-size: cover; 
+    border-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.graphic-fuforce{
+    background-image: url("../../resources/projects/fuforce.png");
+    background-size: cover;
+    border-radius: 25px; 
+
+    width: 100px;
+    height: 100px;
+}
+
+.graphic-IP{
+    background-image: url("../../resources/projects/IP.png");
+    background-size: cover; 
+    border-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.graphic-mancala{
+    background-image: url("../../resources/projects/mancala.png");
+    background-size: cover; 
+    border-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.graphic-translator{
+    background-image: url("../../resources/projects/translator.png");
+    background-size: cover; 
+    border-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.graphic-webpage{
+    background-image: url("../../resources/logos/fauxicon.jpg");
+    background-size: cover; 
+    border-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+/* Cities: sharpton */
+
+.graphic-sharpton1{
+  background-image: url("../../resources/cities/sharpton/1.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-sharpton2{
+  background-image: url("../../resources/cities/sharpton/2.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-sharpton3{
+  background-image: url("../../resources/cities/sharpton/3.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-sharpton4{
+  background-image: url("../../resources/cities/sharpton/4.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+
+
+
+
+/* Cities: dunhall */
+
+.graphic-dunhall1{
+  background-image: url("../../resources/cities/dunhall/1.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-dunhall2{
+  background-image: url("../../resources/cities/dunhall/2.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-dunhall3{
+  background-image: url("../../resources/cities/dunhall/3.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-dunhall4{
+  background-image: url("../../resources/cities/dunhall/4.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-dunhall5{
+  background-image: url("../../resources/cities/dunhall/5.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-dunhall6{
+  background-image: url("../../resources/cities/dunhall/6.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-dunhall7{
+  background-image: url("../../resources/cities/dunhall/7.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-dunhall8{
+  background-image: url("../../resources/cities/dunhall/8.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+/* Cities: Athea */
+
+.graphic-athaea1{
+  background-image: url("../../resources/cities/athaea/1.jpg");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-athaea2{
+  background-image: url("../../resources/cities/athaea/2.jpg");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-athaea3{
+  background-image: url("../../resources/cities/athaea/3.jpg");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-athaea4{
+  background-image: url("../../resources/cities/athaea/4.jpg");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-athaea5{
+  background-image: url("../../resources/cities/athaea/5.jpg");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-athaea6{
+  background-image: url("../../resources/cities/athaea/6.jpg");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-athaea7{
+  background-image: url("../../resources/cities/athaea/7.jpg");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 700px;
+  height: 400px;
+}
+
+.graphic-furman{
+  background-image: url("../../resources/logos/furman.png");
+  background-size: cover; 
+
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}

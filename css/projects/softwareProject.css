@@ -1,0 +1,71 @@
+
+software-header1 {
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+software-header2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+software-header3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+software-body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.redirect-bttn{
+    border: none;
+    border-radius: 25px;
+    margin: 15px 0 0 10px;
+    cursor: pointer;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: #7c7c7c;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    margin: auto auto 25px auto;
+}
+
+.project-head {
+    display: block;
+}
+
+.project-title {
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+.project-stats {
+    display: block;
+    margin: 0 0 0 10px;
+}
+
+
+.project-description {
+    display: block;
+    margin: 10px 0 10px 15px;
+}
