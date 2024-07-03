@@ -37,6 +37,11 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define( 'DB_NAME', 'kbdwxkmy_ProjectText' );
+define( 'DB_USER', 'kbdwxkmy_WPCA7' );
+define( 'DB_PASSWORD', ')fEDCA%c_W)Us3Y[%' );
+define( 'DB_HOST', '192.168.17.113' );
+
 /**#@+
  * Authentication unique keys and salts.
  *
