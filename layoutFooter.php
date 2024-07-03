@@ -4,8 +4,8 @@
 
 <head>
 	<title>Header</title>
-	<link rel="stylesheet" href="css\layout\footer.css">
-	<link rel="stylesheet" href="css\system\text.css">
+	<link rel="stylesheet" href="css\footer.css">
+	<link rel="stylesheet" href="css\text.css">
 
 	<script>
 	</script>

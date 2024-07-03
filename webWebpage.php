@@ -4,8 +4,8 @@
 <head>
   <title>Johnathan Dewey's Webpage</title>
     <link rel="stylesheet" href="css\project.css">
-    <link rel="stylesheet" href="css\system\graphics.css">
-    <link rel="stylesheet" href="css\system\text.css">
+    <link rel="stylesheet" href="css\graphics.css">
+    <link rel="stylesheet" href="css\text.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="resources\javascript\redirect.js"></script>

@@ -3,7 +3,7 @@
 
 <head>
     <title>Dunhall Slides</title>
-    <link rel="stylesheet" href="..\..\css\slides\slides.css">
+    <link rel="stylesheet" href="..\..\css\slides.css">
     <link rel="stylesheet" href="..\..\css\graphics.css">
     <link rel="stylesheet" href="..\..\css\text.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

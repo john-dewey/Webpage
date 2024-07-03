@@ -4,9 +4,9 @@
 <head>
     <title>Websites</title>
     <link rel="icon" type="image/x-icon" href="resources\logos\fauxicon.jpg">
-    <link rel="stylesheet" href="css\pages\software.css">
-    <link rel="stylesheet" href="css\system\override.css">
-    <link rel="stylesheet" href="css\system\text.css">
+    <link rel="stylesheet" href="css\software.css">
+    <link rel="stylesheet" href="css\override.css">
+    <link rel="stylesheet" href="css\text.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>

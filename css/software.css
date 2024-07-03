@@ -1,0 +1,15 @@
+
+
+.project-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 25px 0;
+}
+
+.project-conatiner {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px 10px;
+}

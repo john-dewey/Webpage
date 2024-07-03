@@ -1,0 +1,44 @@
+.project {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 0 0 ;
+}
+
+.project-information{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #7c7c7c;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.project-image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    margin: 0 0 0 10px;
+
+}
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    display: block;
+}
+
+.project-stats {
+    display: block;
+    padding: 25px 0 0 25px;
+
+}
+
+.project-description {
+    display: block;
+    padding: 25px 0 0 25px;
+}
