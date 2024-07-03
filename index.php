@@ -6,7 +6,6 @@
 	<link rel="icon" type="image/x-icon" href="resources\logos\fauxicon.jpg">
 	<link rel="stylesheet" href="css\f-loader.css">
 	<link rel="stylesheet" href="css\p-index.css">
-	<link rel="stylesheet" href="css\f-graphics.css">
 	<link rel="stylesheet" href="css\s-override.css">
 	<link rel="stylesheet" href="css\s-text.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,7 +81,7 @@
 						<div class="causes-entry">
 
 							<button class="cause-bttn" onclick="cause1()">
-								<img src = "resources\index\CFA.jpg" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
+								<img src = "resources\media\logo-CFA.jpg" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
 							</button>
 
 
@@ -102,7 +101,7 @@
 						<div class="causes-entry">
 
 							<button class="cause-bttn" onclick="cause2()" target="_blank">
-								<img src = "resources\index\SBD.png" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
+								<img src = "resources\media\logo-SBD.png" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
 							</button>
 
 							<div class="entry-content">
@@ -122,7 +121,7 @@
 						<div class="causes-entry">
 
 							<button class="cause-bttn" onclick="cause3()">
-								<img src = "resources\index\JDRF.jpg" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
+								<img src = "resources\media\logo-JDRF.jpg" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
 							</button>
 
 							<div class="entry-content">
@@ -141,7 +140,7 @@
 						<div class="causes-entry">
 
 							<button class="cause-bttn" onclick="cause4()">
-								<img src = "resources\index\NCTE.png" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
+								<img src = "resources\media\logo-NCTE.png" style = "height: 100px; width: 100px; border-radius: 25px;"></img>
 							</button>
 							<div class="entry-content">
 								<div class="content-title">

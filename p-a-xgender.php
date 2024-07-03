@@ -25,7 +25,7 @@
 
         <div class="project-info">
             <!-- Graphic -->
-            <img src="resources\logos\furman.png" alt="Research Paper">
+            <img src="resources\media\logo-furman.png" alt="Research Paper">
 
             <div class="project-stats">
                 <!-- Key Topics -->
@@ -60,8 +60,8 @@
         <!-- English Summary File -->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\X-Gender\English-Summary.pdf" download>
-                <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                <a href="resources\p-academia\X-Gender\English-Summary.pdf" download>
+                <img src="resources\media\graphic-paper.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">
@@ -73,8 +73,8 @@
          <!-- Japanese Summary File -->
          <div class="download">
             <div class = file>
-                <a href="resources\academia\X-Gender\Japnese-Summary.pdf.pdf" download>
-                <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                <a href="resources\p-academia\X-Gender\Japnese-Summary.pdf.pdf" download>
+                <img src="resources\media\graphic-paper.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">
@@ -86,8 +86,8 @@
          <!-- Japanese Presentation File -->
          <div class="download">
             <div class = file>
-                <a href="resources\academia\X-Gender\Japanese-Presentation.pdf" download>
-                <img src="resources\graphics\presentation.png" alt="Research Paper">
+                <a href="resources\p-academia\X-Gender\Japanese-Presentation.pdf" download>
+                <img src="resources\media\graphic-presentation.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">

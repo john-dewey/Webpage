@@ -28,7 +28,7 @@
 
             <div class="project-info">
                 <!-- Graphic -->
-                <img src="resources\logos\furman.png" alt="Research Paper">
+                <img src="resources\media\logo-furman.png" alt="Research Paper">
 
                 <div class="project-stats">
                     <!-- Key Topics -->
@@ -97,8 +97,8 @@
             <!-- Paper File -->
             <div class="download">
                 <div class=file>
-                    <a href="resources\academia\Context-Driven-Translation\Research-Paper.pdf" download>
-                        <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                    <a href="resources\p-academia\Context-Driven-Translation\Research-Paper.pdf" download>
+                        <img src="resources\media\graphic-paper.png" alt="Research Paper">
                     </a>
                 </div>
                 <div class="filename">
@@ -110,8 +110,8 @@
             <!-- Presentation File A -->
             <div class="download">
                 <div class=file>
-                    <a href="resources\academia\Context-Driven-Translation\Presentation-FE.pptx" download>
-                        <img src="resources\graphics\presentation.png" alt="Furman Engaged Presentation">
+                    <a href="resources\p-academia\Context-Driven-Translation\Presentation-FE.pptx" download>
+                        <img src="resources\media\graphic-presentation.png" alt="Furman Engaged Presentation">
                     </a>
                 </div>
                 <div class="filename">
@@ -123,8 +123,8 @@
             <!-- Presentation File B -->
             <div class="download">
                 <div class=file>
-                    <a href="resources\academia\Context-Driven-Translation\Presentation-Committee.pptx" download>
-                        <img src="resources\graphics\presentation.png" alt="Furman Engaged Presentation">
+                    <a href="resources\p-academia\Context-Driven-Translation\Presentation-Committee.pptx" download>
+                        <img src="resources\media\graphic-presentation.png" alt="Furman Engaged Presentation">
                     </a>
                 </div>
                 <div class="filename">

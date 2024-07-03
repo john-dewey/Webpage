@@ -22,7 +22,7 @@
 
         <div class="project-info">
             <!-- Graphic -->
-            <img src="resources\logos\furman.png" alt="Research Paper">
+            <img src="resources\media\logo-furman.png" alt="Research Paper">
 
             <div class="project-stats">
                 <!-- Key Topics -->
@@ -73,8 +73,8 @@
         <!-- Paper File -->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\Discrepancies-Among-Translation\Research-Paper.pdf" download>
-                <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                <a href="resources\p-academia\Discrepancies-Among-Translation\Research-Paper.pdf" download>
+                <img src="resources\media\graphic-paper.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">
@@ -86,8 +86,8 @@
         <!-- Japanese File -->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\Discrepancies-Among-Translation\Japanese-Summary-Paper.pdf" download>
-                <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                <a href="resources\p-academia\Discrepancies-Among-Translation\Japanese-Summary-Paper.pdf" download>
+                <img src="resources\media\graphic-paper.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">
@@ -99,8 +99,8 @@
         <!-- Poster File-->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\Discrepancies-Among-Translation\Poster.pdf" download>
-                <img src="resources\graphics\presentation.png" alt="Poster">
+                <a href="resources\p-academia\Discrepancies-Among-Translation\Poster.pdf" download>
+                <img src="resources\media\graphic-presentation.png" alt="Poster">
                 </a>  
             </div>
             <div class = "filename">

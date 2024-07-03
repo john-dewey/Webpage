@@ -21,7 +21,7 @@
 
         <div class="project-info">
             <!-- Graphic -->
-            <img src="resources\logos\furman.png" alt="Research Paper">
+            <img src="resources\media\logo-furman.png" alt="Research Paper">
 
             <div class="project-stats">
                 <!-- Key Topics -->
@@ -72,8 +72,8 @@
         <!-- Paper File -->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\Game-Studies\Research-Paper.pdf" download>
-                <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                <a href="resources\p-academia\Game-Studies\Research-Paper.pdf" download>
+                <img src="resources\media\graphic-paper.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">
@@ -85,8 +85,8 @@
         <!-- Presentation File -->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\Game-Studies\Presentation.pdf" download>
-                <img src="resources\graphics\presentation.png" alt="Research Paper">
+                <a href="resources\p-academia\Game-Studies\Presentation.pdf" download>
+                <img src="resources\media\graphic-presentation.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">
@@ -98,8 +98,8 @@
         <!-- Presentation Movie File-->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\Game-Studies\Presentation.mp4" download>
-                <img src="resources\graphics\movie.png" alt="Poster">
+                <a href="resources\p-academia\Game-Studies\Presentation.mp4" download>
+                <img src="resources\media\graphic-movie.png" alt="Poster">
                 </a>  
             </div>
             <div class = "filename">

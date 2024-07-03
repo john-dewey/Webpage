@@ -1,59 +1,4 @@
-/* Index */
 
-.graphic-CFA{
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 25px;
-    
-    background-image: url("../../resources/index/CFA.jpg");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
-
-  }
-
-  .graphic-outright{
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 25px;
-    margin: 0 25px 0 0;
-    
-    background-image: url("../../resources/index/outright.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-
-  }
-
-  .graphic-KOC{
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 25px;
-    margin: 0 25px 0 0;
-    
-    background-image: url("../../resources/index/KOC.png");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; 
-
-  }
-
-  .graphic-NCTE{
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 25px;
-    margin: 0 25px 0 0;
-    
-    background-image: url("../../resources/index/NCTE.png");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; 
-
-  }
 
 
 
@@ -62,22 +7,8 @@
 
   /* Bio */
 
-  .graphic-profile{
-    margin: 10px 0 0 0;
-    border: 3px solid #000000;
-    border-radius: 25px; 
-    background-image: url("../../resources/bio/me.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; 
-
-  
-    width: 300px;
-    height: 400px;
-  }
-
   .graphic-X{
-    background-image: url("../../resources/logos/twitter.png");
+    background-image: url("../resources/media/logo-twitter.png");
     background-size: cover; 
 
 
@@ -87,7 +18,7 @@
 }
 
 .graphic-mail{
-    background-image: url("../../resources/logos/mail.png");
+    background-image: url("../resources/media/logo-mail.png");
     background-size: cover; 
 
 
@@ -97,7 +28,7 @@
 }
 
 .graphic-linkedin{
-    background-image: url("../../resources/logos/linkedin.png");
+    background-image: url("../resources/media/logo-linkedin.png");
     background-size: cover; 
 
 
@@ -107,7 +38,7 @@
 }
 
 .graphic-github{
-    background-image: url("../../resources/logos/github.png");
+    background-image: url("../resources/media/logo-github.png");
     background-size: cover;
 
     width: 150px;
@@ -115,14 +46,10 @@
     margin: 10px 10px 10px 10px;
 }
 
-
-
-
-
 /* Projects */
 
 .graphic-deepdrug{
-    background-image: url("../../resources/projects/deepdrug.png");
+    background-image: url("../resources/p-software/logo-deepdrug.png");
     background-size: cover; 
     border-radius: 25px;
 
@@ -131,7 +58,7 @@
 }
 
 .graphic-fuforce{
-    background-image: url("../../resources/projects/fuforce.png");
+    background-image: url("../resources/p-software/logo-fuforce.png");
     background-size: cover;
     border-radius: 25px; 
 
@@ -140,7 +67,7 @@
 }
 
 .graphic-IP{
-    background-image: url("../../resources/projects/IP.png");
+    background-image: url("../resources/p-software/logo-IP.png");
     background-size: cover; 
     border-radius: 25px;
 
@@ -149,7 +76,7 @@
 }
 
 .graphic-mancala{
-    background-image: url("../../resources/projects/mancala.png");
+    background-image: url("../resources/p-software/logo-mancala.png");
     background-size: cover; 
     border-radius: 25px;
 
@@ -158,7 +85,7 @@
 }
 
 .graphic-translator{
-    background-image: url("../../resources/projects/translator.png");
+    background-image: url("../resources/p-software/logo-translator.png");
     background-size: cover; 
     border-radius: 25px;
 
@@ -167,7 +94,7 @@
 }
 
 .graphic-webpage{
-    background-image: url("../../resources/logos/fauxicon.jpg");
+    background-image: url("../resources/media/logo-jtd-fauxicon.jpg");
     background-size: cover; 
     border-radius: 25px;
 
@@ -182,7 +109,7 @@
 /* Cities: sharpton */
 
 .graphic-sharpton1{
-  background-image: url("../../resources/cities/sharpton/1.png");
+  background-image: url("../resources/p-cities/sharpton/1.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -191,7 +118,7 @@
 }
 
 .graphic-sharpton2{
-  background-image: url("../../resources/cities/sharpton/2.png");
+  background-image: url("../resources/p-cities/sharpton/2.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -200,7 +127,7 @@
 }
 
 .graphic-sharpton3{
-  background-image: url("../../resources/cities/sharpton/3.png");
+  background-image: url("../resources/p-cities/sharpton/3.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -209,7 +136,7 @@
 }
 
 .graphic-sharpton4{
-  background-image: url("../../resources/cities/sharpton/4.png");
+  background-image: url("../resources/p-cities/sharpton/4.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -224,7 +151,7 @@
 /* Cities: dunhall */
 
 .graphic-dunhall1{
-  background-image: url("../../resources/cities/dunhall/1.png");
+  background-image: url("../resources/p-cities/dunhall/1.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -233,7 +160,7 @@
 }
 
 .graphic-dunhall2{
-  background-image: url("../../resources/cities/dunhall/2.png");
+  background-image: url("../resources/p-cities/dunhall/2.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -242,7 +169,7 @@
 }
 
 .graphic-dunhall3{
-  background-image: url("../../resources/cities/dunhall/3.png");
+  background-image: url("../resources/p-cities/dunhall/3.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -251,7 +178,7 @@
 }
 
 .graphic-dunhall4{
-  background-image: url("../../resources/cities/dunhall/4.png");
+  background-image: url("../resources/p-cities/dunhall/4.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -260,7 +187,7 @@
 }
 
 .graphic-dunhall5{
-  background-image: url("../../resources/cities/dunhall/5.png");
+  background-image: url("../resources/p-cities/dunhall/5.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -269,7 +196,7 @@
 }
 
 .graphic-dunhall6{
-  background-image: url("../../resources/cities/dunhall/6.png");
+  background-image: url("../resources/p-cities/dunhall/6.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -278,7 +205,7 @@
 }
 
 .graphic-dunhall7{
-  background-image: url("../../resources/cities/dunhall/7.png");
+  background-image: url("../resources/p-cities/dunhall/7.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -287,7 +214,7 @@
 }
 
 .graphic-dunhall8{
-  background-image: url("../../resources/cities/dunhall/8.png");
+  background-image: url("../resources/p-cities/dunhall/8.png");
   background-size: cover; 
   border-radius: 25px;
 
@@ -298,7 +225,7 @@
 /* Cities: Athea */
 
 .graphic-athaea1{
-  background-image: url("../../resources/cities/athaea/1.jpg");
+  background-image: url("../resources/p-cities/athaea/1.jpg");
   background-size: cover; 
   border-radius: 25px;
 
@@ -307,7 +234,7 @@
 }
 
 .graphic-athaea2{
-  background-image: url("../../resources/cities/athaea/2.jpg");
+  background-image: url("../resources/p-cities/cities/athaea/2.jpg");
   background-size: cover; 
   border-radius: 25px;
 
@@ -316,7 +243,7 @@
 }
 
 .graphic-athaea3{
-  background-image: url("../../resources/cities/athaea/3.jpg");
+  background-image: url("../resources/p-cities/athaea/3.jpg");
   background-size: cover; 
   border-radius: 25px;
 
@@ -325,7 +252,7 @@
 }
 
 .graphic-athaea4{
-  background-image: url("../../resources/cities/athaea/4.jpg");
+  background-image: url("../resources/p-cities/athaea/4.jpg");
   background-size: cover; 
   border-radius: 25px;
 
@@ -334,7 +261,7 @@
 }
 
 .graphic-athaea5{
-  background-image: url("../../resources/cities/athaea/5.jpg");
+  background-image: url("../resources/p-cities/athaea/5.jpg");
   background-size: cover; 
   border-radius: 25px;
 
@@ -343,7 +270,7 @@
 }
 
 .graphic-athaea6{
-  background-image: url("../../resources/cities/athaea/6.jpg");
+  background-image: url("../resources/p-cities/athaea/6.jpg");
   background-size: cover; 
   border-radius: 25px;
 
@@ -352,7 +279,7 @@
 }
 
 .graphic-athaea7{
-  background-image: url("../../resources/cities/athaea/7.jpg");
+  background-image: url("../resources/p-cities/athaea/7.jpg");
   background-size: cover; 
   border-radius: 25px;
 
@@ -361,7 +288,7 @@
 }
 
 .graphic-furman{
-  background-image: url("../../resources/logos/furman.png");
+  background-image: url("resources/media/logo-furman.png");
   background-size: cover; 
 
   width: 100px;

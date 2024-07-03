@@ -23,7 +23,7 @@
 
         <div class="project-info">
             <!-- Graphic -->
-            <img src="resources\logos\waseda.png" alt="Research Paper">
+            <img src="resources\media\logo-waseda.png" alt="Research Paper">
 
             <div class="project-stats">
                 <!-- Key Topics -->
@@ -72,8 +72,8 @@
         <!-- Paper File -->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\Japanese-Buddhism\Research-Paper.pdf" download>
-                <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                <a href="resources\p-academia\Japanese-Buddhism\Research-Paper.pdf" download>
+                <img src="resources\media\graphic-paper.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">

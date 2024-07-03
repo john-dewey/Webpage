@@ -25,7 +25,7 @@
 
         <div class="project-info">
             <!-- Graphic -->
-            <img src="resources\logos\furman.png" alt="Research Paper">
+            <img src="resources\media\logo-furman.png" alt="Research Paper">
 
             <div class="project-stats">
                 <!-- Key Topics -->
@@ -79,8 +79,8 @@
         <!-- Paper File -->
         <div class="download">
             <div class = file>
-                <a href="resources\academia\LGBTQ-Japan\Research-Paper.pdf" download>
-                <img src="resources\graphics\research-paper.png" alt="Research Paper">
+                <a href="resources\p-academia\LGBTQ-Japan\Research-Paper.pdf" download>
+                <img src="resources\media\graphic-paper.png" alt="Research Paper">
                 </a>
             </div>
             <div class = "filename">

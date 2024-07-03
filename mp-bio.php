@@ -5,7 +5,6 @@
     <title>About</title>
     <link rel="icon" type="image/x-icon" href="resources\logos\fauxicon.jpg">
     <link rel="stylesheet" href="css\p-bio.css">
-    <link rel="stylesheet" href="css\f-graphics.css">
     <link rel="stylesheet" href="css\s-override.css">
     <link rel="stylesheet" href="css\s-text.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +37,7 @@
             <br><web-body>Museums</web-body>
         </div>
         <div class="top-picture">
-            <img src="resources\bio\me.jpg" style="border-radius: 25px; width: 200px;border: 3px solid #000000;"></img>
+            <img src="resources\media\image-me.jpg" style="border-radius: 25px; width: 200px;border: 3px solid #000000;"></img>
 
         </div>
         <div class="top-box">
@@ -48,10 +47,10 @@
 
             <!-- Resume Input -->
 
-            <a href="resources\bio\Resume.pdf" download>
+            <a href="resources\resume.pdf" download>
                 <div class="download">
                     <div class=file>
-                        <img src="resources\graphics\research-paper.png" alt="Resume">
+                        <img src="resources\media\graphic-paper.png" alt="Resume">
                     </div>
                     <div class="filename">
                         <web-header4>Resume.pdf</web-header4>
