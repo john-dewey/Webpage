@@ -13,15 +13,15 @@
 		}
 
 		function bio(){
-			window.location.href = "pageBio.php";
+			window.location.href = "mp-bio.php";
 		}
 
 		function contact(){
-			window.location.href = "pageContact.php";
+			window.location.href = "mp-contact.php";
 		}
 
 		function portfolio(){
-			window.location.href = "pagePortfolio.php";
+			window.location.href = "mp-portfolio.php";
 		}
 	</script>
 </head>
