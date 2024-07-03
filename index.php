@@ -4,11 +4,11 @@
 <head>
 	<title>Homepage</title>
 	<link rel="icon" type="image/x-icon" href="resources\logos\fauxicon.jpg">
-	<link rel="stylesheet" href="css\loader.css">
-	<link rel="stylesheet" href="css\index.css">
-	<link rel="stylesheet" href="css\graphics.css">
-	<link rel="stylesheet" href="css\override.css">
-	<link rel="stylesheet" href="css\text.css">
+	<link rel="stylesheet" href="css\f-loader.css">
+	<link rel="stylesheet" href="css\p-index.css">
+	<link rel="stylesheet" href="css\f-graphics.css">
+	<link rel="stylesheet" href="css\s-override.css">
+	<link rel="stylesheet" href="css\s-text.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<script>

@@ -3,9 +3,9 @@
 
 <head>
     <title>Dunhall Slides</title>
-    <link rel="stylesheet" href="css\projects\citiesProject.css">
-    <link rel="stylesheet" href="css\system\graphics.css">
-    <link rel="stylesheet" href="css\system\text.css">
+    <link rel="stylesheet" href="css\p-citiesProject.css">
+    <link rel="stylesheet" href="css\f-graphics.css">
+    <link rel="stylesheet" href="css\s-text.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 

@@ -4,8 +4,8 @@
 
 <head>
 	<title>Header</title>
-	<link rel="stylesheet" href="css\header.css">
-	<link rel="stylesheet" href="css\text.css">
+	<link rel="stylesheet" href="css\f-header.css">
+	<link rel="stylesheet" href="css\s-text.css">
 
 	<script>
 		function home(){
