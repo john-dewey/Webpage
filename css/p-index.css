@@ -32,6 +32,11 @@ causes-text
   text-align: center;
 }
 
+.left-time {
+  display: block;
+  text-align: center;
+}
+
 .left-directory {
   display: block;
   margin: 25px 50px 0 50px;

@@ -29,6 +29,7 @@
 	</script>
 
 	<script src="javascript\loader.js"></script>
+	<script src="javascript\date.js"></script>
 
 </head>
 
@@ -55,7 +56,11 @@
 				</div>
 
 				<div class="left-time">
-					
+					<h3>
+					<?php
+						include('f-time.php');
+					?>
+					</h3>
 				</div>
 
 				<!-- News Post -->
