@@ -5,7 +5,7 @@
     <title>Macala</title>
     <link rel="stylesheet" href="css\p-project.css">
     <link rel="stylesheet" href="css\f-graphics.css">
-    <link rel="stylesheet" href="css\s-text.css">
+    <link rel="stylesheet" href="css\s-override.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="javascript\redirect.js"></script>
@@ -17,7 +17,7 @@
         <div class="project-head">
 
             <div class="project-title">
-                <web-header2>Mancala</web-header2>
+                <h2>Mancala</h2>
             </div>
 
             <div class="project-info">
@@ -27,20 +27,20 @@
 
                 <div class="project-stats">
                     <!-- Languages -->
-                    <web-header4>
+                    <h4>
                         Language(s):
-                    </web-header4>
-                    <web-body>
+                    </h4>
+                    <p>
                         <span style="color:blue ;">MIPS Assembly</span>
-                    </web-body>
+                    </p>
 
                     <!-- Dates -->
-                    <web-header4>
+                    <h4>
                         <br>Dates of Development:
-                    </web-header4>
-                    <web-body>
+                    </h4>
+                    <p>
                         March - April 2022
-                    </web-body>
+                    </p>
 
                 </div>
 
@@ -49,21 +49,21 @@
 
         <div class="project-description">
             <!-- Information -->
-            <web-header3>Information</web-header3>
+            <h3>Information</h3>
 
-            <web-body>
-                <br>&emsp;This project was completed for a final project in the class CSC-231: Computer Organization.
+            <p>
+                &emsp;This project was completed for a final project in the class CSC-231: Computer Organization.
                 The project uses MIPS Assembly to facilitate a text-based game of Mancala that uses registers as
-                different parts of the game such as the two players stores and holes. The game uses a player’s input of
+                different parts of the game such as the two players stores and holes. The game uses a player's input of
                 numbers to determine how beads get moved and checks on every turn if a winner has been found. The game
-                incorporates all the rules of Mancala, including the special rules of a player’s turn and winning
+                incorporates all the rules of Mancala, including the special rules of a player's turn and winning
                 conditions.
-            </web-body>
+            </p>
         </div>
 
         <div class="project-downloads">
-            <web-header3>Project Files</web-header3>
-            <br>
+            <h3>Project Files</h3>
+
 
             <!-- Default Screen -->
             <div class="download">
@@ -73,7 +73,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>default-screen.png</web-header4>
+                    <h4>default-screen.png</h4>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>gameplay.png</web-header4>
+                    <h4>gameplay.png</h4>
                 </div>
             </div>
         </div>

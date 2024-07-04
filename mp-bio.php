@@ -6,7 +6,6 @@
     <link rel="icon" type="image/x-icon" href="resources\logos\fauxicon.jpg">
     <link rel="stylesheet" href="css\p-bio.css">
     <link rel="stylesheet" href="css\s-override.css">
-    <link rel="stylesheet" href="css\s-text.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -20,30 +19,31 @@
 
 
     <div class="header">
-        <web-header1>About Me</web-header1>
+        <h1>About Me</h1>
     </div>
 
     <div class="top">
         <div class="top-box">
-            <web-header3>Interests</web-header3> <br>
-            <br><web-body>Video Games</web-body>
-            <br><web-body>Music</web-body>
-            <br><web-body>Language</web-body>
-            <br><web-body>Travel</web-body>
-            <br><web-body>Thrifting</web-body>
-            <br><web-body>Kirby</web-body>
-            <br><web-body>Interests</web-body>
-            <br><web-body>Collecting Figurines</web-body>
-            <br><web-body>Museums</web-body>
+            <h3>Interests</h3>
+            <br>Video Games
+            <br>Music
+            <br>Language
+            <br>Travel
+            <br>Thrifting
+            <br>Kirby
+            <br>Interests
+            <br>Collecting Figurines
+            <br>Museums
         </div>
         <div class="top-picture">
-            <img src="resources\media\image-me.jpg" style="border-radius: 25px; width: 200px;border: 3px solid #000000;"></img>
+            <img src="resources\media\image-me.jpg"
+                style="border-radius: 25px; width: 200px;border: 3px solid #000000;"></img>
 
         </div>
         <div class="top-box">
-            <web-header3>Johnathan Dewey</web-header3> <br>
-            <web-header4>ジョン・デューウィー</web-header4> <br>
-            <web-header4>He/Him/His</web-header4>
+            <h3>Johnathan Dewey</h3> <br>
+            <h4>ジョン・デューウィー</h4> <br>
+            <h4>He/Him/His</h4>
 
             <!-- Resume Input -->
 
@@ -53,7 +53,7 @@
                         <img src="resources\media\graphic-paper.png" alt="Resume">
                     </div>
                     <div class="filename">
-                        <web-header4>Resume.pdf</web-header4>
+                        <h4>Resume.pdf</h4>
                     </div>
                 </div>
             </a>
@@ -61,16 +61,17 @@
 
         </div>
     </div>
+    <div class="bottom-container">
+        <div class="bottom">
+            <div style="text-align: center;">
+                <h4>Biography</h4>
+            </div>
 
-    <div class="bottom">
-        <div style="text-align: center;">
-            <web-header4>Biography</web-header4>
+            <?php
+            include 'textBiography.html';
+            ?>
+
         </div>
-
-        <?php
-        include 'textBiography.html';
-        ?>
-
     </div>
 
     <footer>

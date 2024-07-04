@@ -5,7 +5,7 @@
     <title>Macala</title>
     <link rel="stylesheet" href="css\p-project.css">
     <link rel="stylesheet" href="css\f-graphics.css">
-    <link rel="stylesheet" href="css\s-text.css">
+    <link rel="stylesheet" href="css\s-override.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="javascript\redirect.js"></script>
@@ -17,7 +17,7 @@
         <div class="project-head">
 
             <div class="project-title">
-                <web-header2>Dreams and Nightmares</web-header2>
+                <h2>Dreams and Nightmares</h2>
             </div>
 
             <div class="project-info">
@@ -27,21 +27,21 @@
 
                 <div class="project-stats">
                     <!-- Languages -->
-                    <web-header4>
+                    <h4>
                         Language(s):
-                    </web-header4>
-                    <web-body>
+                    </h4>
+                    <p>
                         <span style="color:blue ;">Unity</span>
                         <span style="color:blue ;">C#</span>
-                    </web-body>
+                    </p>
 
                     <!-- Dates -->
-                    <web-header4>
+                    <h4>
                         <br>Dates of Development:
-                    </web-header4>
-                    <web-body>
+                    </h4>
+                    <p>
                         Feburary - April 2024
-                    </web-body>
+                    </p>
 
                 </div>
 
@@ -50,16 +50,15 @@
 
         <div class="project-description">
             <!-- Information -->
-            <web-header3>Information</web-header3>
+            <h3>Information</h3>
 
-            <web-body>
-                <br>&emsp;This project was completed for a final project in the class CSC-348: Game Design and Development with 4 other classmates. The project implements a multilevel 2D side-scroller to acquire an old school action and adventure game. The game follows a man trapped inside his subconscious and navigates a dark and ominous environment to wake up from his coma. My responsibility with the game was creating player mechanics, physics control, environment interactions, as well as the maintenance of the GitHub repository. I implemented a unique game feature that alters the direction of gravity to grant the player unique traversals off the environment.
-            </web-body>
+            <p>
+                &emsp;This project was completed for a final project in the class CSC-348: Game Design and Development with 4 other classmates. The project implements a multilevel 2D side-scroller to acquire an old school action and adventure game. The game follows a man trapped inside his subconscious and navigates a dark and ominous environment to wake up from his coma. My responsibility with the game was creating player mechanics, physics control, environment interactions, as well as the maintenance of the GitHub repository. I implemented a unique game feature that alters the direction of gravity to grant the player unique traversals off the environment.
+            </p>
         </div>
 
         <div class="project-downloads">
-            <web-header3>Project Files</web-header3>
-            <br>
+            <h3>Project Files</h3>
 
             <!-- Pamphlet -->
             <div class="download">
@@ -69,7 +68,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>game-pamphlet.pdf</web-header4>
+                    <h4>game-pamphlet.pdf</h4>
                 </div>
             </div>
 
@@ -81,7 +80,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>gameplay-snapshot-1.png</web-header4>
+                    <h4>gameplay-snapshot-1.png</h4>
                 </div>
             </div>
 
@@ -93,7 +92,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>gameplay-snapshot-2.png</web-header4>
+                    <h4>gameplay-snapshot-2.png</h4>
                 </div>
             </div>
 
@@ -105,7 +104,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>gameplay-snapshot-3.png</web-header4>
+                    <h4>gameplay-snapshot-3.png</h4>
                 </div>
             </div>
         </div>

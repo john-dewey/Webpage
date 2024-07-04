@@ -5,7 +5,7 @@
     <title>Diamanti</title>
     <link rel="stylesheet" href="css\p-citiesProject.css">
     <link rel="stylesheet" href="css\f-graphics.css">
-    <link rel="stylesheet" href="css\s-text.css">
+    <link rel="stylesheet" href="css\s-override.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -15,45 +15,45 @@
     <div class="project">
         <div class="project-information">
             <div class="project-title">
-                <web-header2>Diamanti</web-header2>
+                <h2>Diamanti</h2>
             </div>
             <div class="information-container">
                 <div class="project-stats">
                     <!-- Map -->
-                    <web-header4>
+                    <h4>
                        Map: 
-                    </web-header4>
-                    <web-body-italic>
+                    </h4>
+                    <p>
                         My own custom map
-                    </web-body-italic>
+                    </p>
 
                     <!-- Population -->
                     <br>
-                    <web-header4>
+                    <h4>
                         Population:
-                    </web-header4>
-                    <web-body-italic>
+                    </h4>
+                    <p>
                         ~150,000
                         <br>
-                    </web-body-italic>
+                    </p>
                         
 
                     <!-- Start Date -->
-                    <web-header4>
+                    <h4>
                         Start Date: 
-                    </web-header4>
-                    <web-body-italic>
+                    </h4>
+                    <p>
                         January 2024
-                    </web-body-italic>
+                    </p>
                 </div>
                 <div class="project-description">
-                    <web-body> &emsp;&emsp;City is still in progress. Stay tuned</web-body>
+                    <p> &emsp;&emsp;City is still in progress. Stay tuned</p>
                 </div>
             </div>
         </div>
 
         <div class="project-image">
-            <web-header4>No Images Yet </web-header4>
+            <h4>No Images Yet </h4>
             
         </div>
     </div>

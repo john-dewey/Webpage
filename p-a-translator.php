@@ -4,8 +4,8 @@
 <head>
     <title>Context-Driven English to Japanese Translation</title>
     <link rel="stylesheet" href="css\p-project.css">
-  <link rel="stylesheet" href="css\f-graphics.css">
-  <link rel="stylesheet" href="css\s-text.css">
+    <link rel="stylesheet" href="css\f-graphics.css">
+    <link rel="stylesheet" href="css\s-override.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -20,9 +20,9 @@
 
             <div class="project-title">
 
-                <web-header2>
-                Context-Driven English to Japanese Translation
-                </web-header2>
+                <h2>
+                    Context-Driven English to Japanese Translation
+                </h2>
 
             </div>
 
@@ -32,37 +32,42 @@
 
                 <div class="project-stats">
                     <!-- Key Topics -->
-                    <web-header4> <br> <b>Key Topics:</b> </web-header4>
+                    <h4> <br> <b>Key Topics:</b> </h4>
 
-                    <web-body>English and Japanese Translation, Visitior Design Pattern, X-Bar Theory, SLIM Theory,
-                        Linguistic Corpora</web-body>
+                    <p>English and Japanese Translation, Visitior Design Pattern, X-Bar Theory, SLIM Theory,
+                        Linguistic Corpora</p>
 
                     <!-- Class -->
-                    <web-header4> <br> <b>Class:</b> </web-header4>
-                    <web-body>Computer Science Senior Research Capstone</web-body>
+                    <h4> <br> <b>Class:</b> </h4>
+                    <p>Computer Science Senior Research Capstone</p>
 
                     <!-- Dates -->
-                    <web-header4> <br> <b>Dates of Research:</b> </web-header4>
-                    <web-body>January - May 2024</web-body>
+                    <h4> <br> <b>Dates of Research:</b> </h4>
+                    <p>January - May 2024</p>
                 </div>
             </div>
         </div>
 
         <div class="project-description">
             <!-- Info -->
-            <web-header3>Information</web-header3>
+            <h3>Information</h3>
 
-            <web-body>
-                <br> &emsp; This project was completed for my Senior Thesis for Computer Science at Furman University. In this project, I implemented a Statistical Machine Translator that manipulates a syntax tree data structure through algorithms encoded in a visitor pattern. The translator takes a grammar-conforming English sentence and acquires the appropriate Japanese translation. The translator makes use of multiple Linguistic Corpora whose information is stored with a PostgreSQL database. The storing of sentences in a tree structure is determined through a generative grammar based on X-Bar Syntax Theory.
-            </web-body>
+            <p>
+                &emsp; This project was completed for my Senior Thesis for Computer Science at Furman University.
+                In this project, I implemented a Statistical Machine Translator that manipulates a syntax tree data
+                structure through algorithms encoded in a visitor pattern. The translator takes a grammar-conforming
+                English sentence and acquires the appropriate Japanese translation. The translator makes use of multiple
+                Linguistic Corpora whose information is stored with a PostgreSQL database. The storing of sentences in a
+                tree structure is determined through a generative grammar based on X-Bar Syntax Theory.
+            </p>
         </div>
 
         <div class="project-description">
             <!-- Abstract -->
-            <web-header3>Abstract</web-header3>
+            <h3>Abstract</h3>
 
-            <web-body>
-                <br> &emsp; In past decades, computational translation has been a widely used tool due to its
+            <p>
+                &emsp; In past decades, computational translation has been a widely used tool due to its
                 accessibility and
                 ease of use. Despite its popularity, computational translators are second-rate compared to multilingual
                 humans who can provide natural translations of phrases—which computational translators cannot. This
@@ -85,12 +90,12 @@
                 of the proof-of-concept translator by testing for usage of proper nouns, conjunctions, and all
                 variations of
                 tense features.
-            </web-body>
+            </p>
         </div>
 
         <div class="project-downloads">
-            <web-header3>Project Files</web-header3>
-            <br>
+            <h3>Project Files</h3>
+
 
             <!-- Paper File -->
             <div class="download">
@@ -100,7 +105,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>Research-Paper.pdf</web-header4>
+                    <h4>Research-Paper.pdf</h4>
                 </div>
             </div>
 
@@ -112,7 +117,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>Presentation-FE.pptx</web-header4>
+                    <h4>Presentation-FE.pptx</h4>
                 </div>
             </div>
 
@@ -125,7 +130,7 @@
                     </a>
                 </div>
                 <div class="filename">
-                    <web-header4>Presentation-Committee.pptx</web-header4>
+                    <h4>Presentation-Committee.pptx</h4>
                 </div>
             </div>
 
