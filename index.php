@@ -28,7 +28,7 @@
 		}
 	</script>
 
-	<script src="resources\javascript\loader.js"></script>
+	<script src="javascript\loader.js"></script>
 
 </head>
 
@@ -49,15 +49,19 @@
 		<div class="main">
 			<div class="main-left">
 
-				<!-- Information -->
+				
 				<div class="left-header">
-					<web-header1>Welcome to my Page</web-header1>
+					<h1>Welcome to my Page</h1>
 				</div>
 
+				<div class="left-time">
+					
+				</div>
 
+				<!-- News Post -->
 				<div class="left-info">
 					<div class="info-header">
-						<web-header2>What I'm Currently Doing</web-header2>
+						<h2>What I'm Currently Doing</h2>
 					</div>
 					<div class="info-body">
 						<?php
@@ -65,15 +69,13 @@
 						?>
 					</div>
 				</div>
-
-				<!-- Directory -->
 			</div>
-			<div class="main-right">
 
-				<!-- Causes -->
+			<!-- Causes -->
+			<div class="main-right">
 				<div class="right-causes">
 					<div class="causes-header">
-						<web-header2>Endeavors Important to Me</web-header2>
+						<h2>Endeavors Important to Me</h2>
 					</div>
 					<div class="causes-container">
 
@@ -87,12 +89,14 @@
 
 							<div class="entry-content">
 								<div class="content-title">
-									<web-header4>Car Free America</web-header4>
+									<h4>Car Free America</h4>
 								</div>
 								<div class="content-body">
+									<causes-text>
 									<?php
 									include('textCause1.html');
 									?>
+									</causes-text>
 								</div>
 							</div>
 						</div>
@@ -106,12 +110,14 @@
 
 							<div class="entry-content">
 								<div class="content-title">
-									<web-header4>Segregation by Design</web-header4>
+									<h4>Segregation by Design</h4>
 								</div>
 								<div class="content-body">
+								<causes-text>
 									<?php
 									include('textCause2.html');
 									?>
+									</causes-text>
 								</div>
 
 							</div>
@@ -126,12 +132,14 @@
 
 							<div class="entry-content">
 								<div class="content-title">
-									<web-header4>Juvenile Diabetes Research Foundation</web-header4>
+									<h4>Juvenile Diabetes Research Foundation</h4>
 								</div>
 								<div class="content-body">
+								<causes-text>
 									<?php
 									include('textCause3.html');
 									?>
+									</causes-text>
 								</div>
 							</div>
 						</div>
@@ -144,12 +152,14 @@
 							</button>
 							<div class="entry-content">
 								<div class="content-title">
-									<web-header4> National Center for Transgender Equality </web-header4>
+									<h4> National Center for Transgender Equality </h4>
 								</div>
 								<div class="content-body">
+								<causes-text>
 									<?php
 									include('textCause4.html');
 									?>
+									</causes-text>
 								</div>
 							</div>
 						</div>
