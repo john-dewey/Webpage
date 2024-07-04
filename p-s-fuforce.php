@@ -56,8 +56,12 @@
         <web-header3>Information</web-header3>
 
         <web-body>
-            <br>&emsp;Final Group Project for CSC-353: Software Engineering. The project implements a ticketing software designed for Furman University's Police Department to keep record of violations. Produced software in an Agile Software Development style. Communicated with our client to specify the scope of the software. My main responsibility was the integration of a SQL database, and designing the SQL tables to record user information. Due to the private information of clients and private server, visualizations of this project are redacted.    
-        </web-body>
+            <br>&emsp;This project was completed for a final project in the class CSC-353: Software Engineering with 3 other students. The project uses JavaFX and a MySQL database to implement ticketing software designed to the specifications of the Furman University Police Department. The software allows users in the Police department to track cases where excessive force was used and document the information pertinent to the case. We participated in an Agile development cycle with weeklong Scrums. My responsibility within the project pertained to the integration of a MySQL database into the software and designing the functionality between the server-side and client-side of the software.</web-body>
+    </div>
+
+    <div class="project-downloads">
+    <web-header3>Project Files</web-header3>
+    <web-body>&emsp;Due to the sensitive information of clients and officers, visualizations and access to the software has been redacted.</web-body>
     </div>
  </div>
 

@@ -53,9 +53,51 @@
                 <web-header3>Information</web-header3>
 
         <web-body>
-            <br>&emsp;Senior Thesis for B.S. Computer Science at Furman University. The translator manipulates a syntax tree structure that attains a Japanese translation for an English phrase. It is a Statistical Machine Translator using an English Corpus.Sentences are formed from the Generative Grammar of X-Bar Theory.All Corpus information stored within a PostgreSQL database.
+            <br>&emsp;This project was completed for my Senior Thesis for Computer Science at Furman University. In this project, I implemented a Statistical Machine Translator that manipulates a syntax tree data structure through algorithms encoded in a visitor pattern. The translator takes a grammar-conforming English sentence and acquires the appropriate Japanese translation. The translator makes use of multiple Linguistic Corpora whose information is stored with a PostgreSQL database. The storing of sentences in a tree structure is determined through a generative grammar based on X-Bar Syntax Theory.
         </web-body>
     </div>
+
+    <div class="project-downloads">
+            <web-header3>Project Files</web-header3>
+            <br>
+
+            <!-- Paper File -->
+            <div class="download">
+                <div class=file>
+                    <a href="resources\p-academia\Context-Driven-Translation\Research-Paper.pdf" download>
+                        <img src="resources\media\graphic-paper.png" alt="Research Paper">
+                    </a>
+                </div>
+                <div class="filename">
+                    <web-header4>Research-Paper.pdf</web-header4>
+                </div>
+
+            </div>
+
+            <!-- Presentation File A -->
+            <div class="download">
+                <div class=file>
+                    <a href="resources\p-academia\Context-Driven-Translation\Presentation-FE.pptx" download>
+                        <img src="resources\media\graphic-presentation.png" alt="Furman Engaged Presentation">
+                    </a>
+                </div>
+                <div class="filename">
+                    <web-header4>Presentation-FE.pptx</web-header4>
+                </div>
+            </div>
+
+
+            <!-- Presentation File B -->
+            <div class="download">
+                <div class=file>
+                    <a href="resources\p-academia\Context-Driven-Translation\Presentation-Committee.pptx" download>
+                        <img src="resources\media\graphic-presentation.png" alt="Furman Engaged Presentation">
+                    </a>
+                </div>
+                <div class="filename">
+                    <web-header4>Presentation-Committee.pptx</web-header4>
+                </div>
+            </div>
  </div>
 
 </body>

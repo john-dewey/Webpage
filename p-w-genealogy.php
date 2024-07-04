@@ -17,7 +17,7 @@
     <div class="project-head">
 
         <div class="project-title">
-            <web-header2>Johnathan Dewey's Webpage</web-header2>
+            <web-header2>The Dewey Family Genealogy</web-header2>
         </div>
 
         <div class="project-info">
@@ -42,7 +42,7 @@
                 <br>Dates of Development:
                 </web-header4>
                 <web-body>
-                February 2023 - Current
+                May 2024 - Current
                 </web-body>
 
             </div>
@@ -55,7 +55,7 @@
         <web-header3>Information</web-header3>
 
         <web-body>
-            <br>&emsp;This website was completed on my own volition to set up a repository of information pertaining to me, Johnathan Dewey. The website uses HTML, CSS, PHP, and MySQL to achieve the design and functionality pertinent to the website. The website contains a main page for displaying my current endeavors as well as national endeavors that interest me. One can also find a page pertaining to my background and general information, and another page with contact information. One will also find the different type of projects I have completed for academia, as well as individual projects with software, websites, and even my cities from the game “Cities Skylines.”
+            <br>&emsp;This website was completed on my own volition to set up a wiki pertaining to the families that make up the Dewey family genealogical makeup and their lore. This project came to me as I was given materials that help map out the specifics of the Dewey family and their ancestors. The website uses HTML, CSS, PHP, and MySQL to achieve the design and functionality pertinent to the website. The website is still a work-in-progress and is not yet viewable to the public.
         </web-body>
     </div>
  </div>

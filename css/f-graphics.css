@@ -84,6 +84,15 @@
     height: 100px;
 }
 
+.graphic-dreamsandnightmares{
+  background-image: url("../resources/media/logo-furman.png");
+  background-size: cover; 
+  border-radius: 25px;
+
+  width: 100px;
+  height: 100px;
+}
+
 .graphic-translator{
     background-image: url("../resources/p-software/logo-translator.png");
     background-size: cover; 

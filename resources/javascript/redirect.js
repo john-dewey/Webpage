@@ -14,6 +14,10 @@ function mancala(){
     window.open('https://github.com/john-dewey/Mancala.git','_blank');
 }
 
+function dreamsandnightmares(){
+    window.open('https://github.com/john-dewey/final-project-348.git','_blank');
+}
+
 function translator(){
     window.open('https://github.com/john-dewey/Translator_v2.git','_blank');
 }

@@ -53,9 +53,7 @@
             <web-header3>Information</web-header3>
 
             <web-body>
-                <br> &emsp; Senior Thesis for B.S. Computer Science at Furman University. The translator manipulates a
-                X-Bar syntax tree structure that attains a Japanese translation for an English phrase through the use fo
-                Lingusitic Corpora and Visitior algorithms.
+                <br> &emsp; This project was completed for my Senior Thesis for Computer Science at Furman University. In this project, I implemented a Statistical Machine Translator that manipulates a syntax tree data structure through algorithms encoded in a visitor pattern. The translator takes a grammar-conforming English sentence and acquires the appropriate Japanese translation. The translator makes use of multiple Linguistic Corpora whose information is stored with a PostgreSQL database. The storing of sentences in a tree structure is determined through a generative grammar based on X-Bar Syntax Theory.
             </web-body>
         </div>
 
@@ -104,7 +102,6 @@
                 <div class="filename">
                     <web-header4>Research-Paper.pdf</web-header4>
                 </div>
-
             </div>
 
             <!-- Presentation File A -->

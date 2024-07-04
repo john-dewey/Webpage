@@ -25,6 +25,9 @@
             <div>
                 <?php include 'p-w-webpage.php'; ?>
             </div>
+            <div>
+                <?php include 'p-w-genealogy.php'; ?>
+            </div>
     </div>
     
     <footer>

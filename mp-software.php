@@ -24,10 +24,13 @@
                 <?php include 'p-s-translator.php'; ?>
             </div>
             <div>
-                <?php include 'p-s-imageprocessor.php'; ?>
+                <?php include 'p-s-deepdrug.php'; ?>
             </div>
             <div>
-                <?php include 'p-s-deepdrug.php'; ?>
+                <?php include 'p-s-dreamsandnightmares.php'; ?>
+            </div>
+            <div>
+                <?php include 'p-s-imageprocessor.php'; ?>
             </div>
             <div>
                 <?php include 'p-s-fuforce.php'; ?>
