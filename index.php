@@ -3,7 +3,7 @@
 
 <head>
 	<title>Homepage</title>
-	<link rel="icon" type="image/x-icon" href="resources\logos\fauxicon.jpg">
+	<link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
 	<link rel="stylesheet" href="css\f-loader.css">
 	<link rel="stylesheet" href="css\p-index.css">
 	<link rel="stylesheet" href="css\s-override.css">
