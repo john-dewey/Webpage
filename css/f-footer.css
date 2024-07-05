@@ -1,9 +1,32 @@
 .footer-container{
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    height: 30px;
+    max-height: max-content;
     background-color: #333;
     margin: 20px 0 0 0;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .footer-top{
+    display:flex;
+    flex-direction: row;
+
+    align-items: center;
+  }
+
+  .footer-fauxicon{
+    display: block;
+  }
+
+  .footer-redirects{
+    display: block;
+    margin: 0 0 0 25px;
+  }
+
+  .footer-bottom{
+    display: block;
+    flex-direction: row;
+    text-align: center;
   }

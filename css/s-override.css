@@ -55,7 +55,8 @@ footer {
 }
 
 html {
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 a {

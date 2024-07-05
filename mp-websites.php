@@ -13,7 +13,7 @@
 <body>
     <header>
         <?php
-        include 'layoutHeader.php';
+        include 'f-header.php';
         ?>
     </header>
 
@@ -32,7 +32,7 @@
     <footer>
 
         <?php
-        include 'layoutFooter.php';
+        include 'f-footer.php';
         ?>
     </footer>
 
