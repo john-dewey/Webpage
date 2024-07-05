@@ -63,6 +63,7 @@
     </div>
     <div class="bottom-container">
         <div class="bottom">
+            
             <div style="text-align: center;">
                 <h4>Biography</h4>
             </div>
@@ -70,7 +71,6 @@
             <?php
             include 'textBiography.html';
             ?>
-
         </div>
     </div>
 

@@ -160,7 +160,7 @@
 									<h4> National Center for Transgender Equality </h4>
 								</div>
 								<div class="content-body">
-								<causes-text>
+									<causes-text>
 									<?php
 									include('textCause4.html');
 									?>
