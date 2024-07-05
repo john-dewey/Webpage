@@ -3,7 +3,7 @@
 
 <head>
     <title>Cities</title>
-    <link rel="icon" type="image/x-icon" href="resources\logos\fauxicon.jpg">
+    <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
     <link rel="stylesheet" href="css\p-cities.css">
     <link rel="stylesheet" href="css\f-graphics.css">
     <link rel="stylesheet" href="css\s-override.css">
