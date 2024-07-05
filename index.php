@@ -5,35 +5,15 @@
 	<title>Homepage</title>
 	<link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
 	<link rel="stylesheet" href="css\f-loader.css">
+	<link rel="stylesheet" href="css\f-redirect.css">
 	<link rel="stylesheet" href="css\p-index.css">
 	<link rel="stylesheet" href="css\s-override.css">
-	<link rel="stylesheet" href="css\s-text.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<script>
-		function cause1() {
-			window.open('https://carfreeamerica.net/', '_blank');
-		}
-
-		function cause2() {
-			window.open('https://www.segregationbydesign.com/', '_blank');
-		}
-
-		function cause3() {
-			window.open('https://www.jdrf.org/', '_blank');
-		}
-
-		function cause4() {
-			window.open('https://transequality.org/', '_blank');
-		}
-	</script>
-
+	
+	<script src="javascript\redirect.js"></script>
 	<script src="javascript\loader.js"></script>
-	<script src="javascript\date.js"></script>
 
 </head>
-
-
 
 <body onload="timeoutFunction()">
 

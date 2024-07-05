@@ -65,3 +65,19 @@ function academia() {
 function cities() {
 	window.location.href = "mp-cities.php";
 }
+
+function cause1() {
+	window.open('https://carfreeamerica.net/', '_blank');
+}
+
+function cause2() {
+	window.open('https://www.segregationbydesign.com/', '_blank');
+}
+
+function cause3() {
+	window.open('https://www.jdrf.org/', '_blank');
+}
+
+function cause4() {
+	window.open('https://transequality.org/', '_blank');
+}
