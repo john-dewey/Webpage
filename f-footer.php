@@ -40,6 +40,8 @@
 				<a href="privacy-policy.php">Privacy-Policy</a>
 				<p> | </p>
 				<a href="copyright-disclaimer.php">Copyright-Disclaimer</a>
+				<br>
+				<small>© Copyright 2022, Johnathan Dewey</small>
 		</div>
 	</div>
 </body>
