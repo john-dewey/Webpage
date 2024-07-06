@@ -1,38 +1,108 @@
-.main{
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: left;
+  border: 1px solid red;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+.page-header{
+  display: block;
+  text-align: center;
+}
+
+.container{
   display: flex;
   flex-direction: column;
-  width: 100%;
-}
-
-.main-header{
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin: 25px 0 25px 0;
-}
-
-.main-container{
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+  align-items: center;
+  padding: 2% 0 2% 0;
 }
 
 .bttn{
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
 
-    background-color: #7c7c7c;
-    border-radius: 25px;
-    border: 3px solid #000000;
-  
-    width: 250px;
-    height: 500px;
+  background-color: #7c7c7c;
+  border-radius: 25px;
+  border: 3px solid #000000;
+
+  width: 250px;
+  height: 500px;
 
 }
 
 .bttn:hover{
-  background-color: pink;
+background-color: pink;
 }
