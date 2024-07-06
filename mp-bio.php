@@ -26,7 +26,7 @@
     <div class="row">
         <div class="col-5">
             <!-- Interest Input -->
-            <div class="top-box">
+            <div class="top-box-interests">
                 <h3>Interests</h3>
                 <br>Video Games
                 <br>Music
@@ -48,7 +48,7 @@
 
         <div class="col-5">
             <!-- Name Input -->
-            <div class="top-box">
+            <div class="top-box-name">
                 <h3>Johnathan Dewey</h3>
                 <h4>ジョン・デューウィー</h4>
                 <h4>He/Him/His</h4>
