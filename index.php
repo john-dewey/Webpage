@@ -26,133 +26,132 @@
 	</header>
 
 	<div id="myDiv" class="animate-bottom">
-
-		<div class="information">
-			<!-- Header -->
-			<div class="information-header">
-				<h1>Welcome to my Page</h1>
-			</div>
-
-			<!-- Time Display -->
-			<div class="information-time">
-				<h3>
-					<?php
-					include ('f-time.php');
-					?>
-				</h3>
-			</div>
-
-			<!-- News Post -->
-			<div class="information-news">
-				<div class="news-header">
-					<h2>What I'm Currently Doing</h2>
+		<div class="row">
+			<div class="col-8 information">
+				<!-- Header -->
+				<div class="information-header">
+					<h1>Welcome to my Page</h1>
 				</div>
-				<div class="news-body">
-					<?php
-					include ('textNewsPost.html');
-					?>
+
+				<!-- Time Display -->
+				<div class="information-time">
+					<h3>
+						<?php
+						include ('f-time.php');
+						?>
+					</h3>
 				</div>
-			</div>
-		</div>
 
-		<div class="causes">
-			<!-- Header -->
-			<div class="causes-header">
-				<h2>Endeavors Important to Me</h2>
-			</div>
-
-			<!-- Cause 1 -->
-			<div class="causes-entry">
-
-				<button class="cause-bttn" onclick="cause1()">
-					<img src="resources\media\logo-CFA.jpg"
-						style="height: 100px; width: 100px; border-radius: 25px;"></img>
-				</button>
-
-
-				<div class="entry-content">
-
-					<div class="content-title">
-						<h4>Car Free America</h4>
+				<!-- News Post -->
+				<div class="information-news">
+					<div class="news-header">
+						<h2>What I'm Currently Doing</h2>
 					</div>
-
-					<div class="content-body">
-						<causes-text>
-							<?php
-							include ('textCause1.html');
-							?>
-						</causes-text>
+					<div class="news-body">
+						<?php
+						include ('textNewsPost.html');
+						?>
 					</div>
 				</div>
 			</div>
 
-			<!-- Cause 2 -->
-			<div class="causes-entry">
-
-				<button class="cause-bttn" onclick="cause2()" target="_blank">
-					<img src="resources\media\logo-SBD.png"
-						style="height: 100px; width: 100px; border-radius: 25px;"></img>
-				</button>
-
-				<div class="entry-content">
-					<div class="content-title">
-						<h4>Segregation by Design</h4>
-					</div>
-					<div class="content-body">
-						<causes-text>
-							<?php
-							include ('textCause2.html');
-							?>
-						</causes-text>
-					</div>
-
+			<div class="col-4 causes">
+				<!-- Header -->
+				<div class="causes-header">
+					<h2>Endeavors Important to Me</h2>
 				</div>
-			</div>
 
-			<!-- Cause 3 -->
-			<div class="causes-entry">
+				<!-- Cause 1 -->
+				<div class="causes-entry">
 
-				<button class="cause-bttn" onclick="cause3()">
-					<img src="resources\media\logo-JDRF.jpg"
-						style="height: 100px; width: 100px; border-radius: 25px;"></img>
-				</button>
+					<button class="cause-bttn" onclick="cause1()">
+						<img src="resources\media\logo-CFA.jpg"
+							style="height: 100px; width: 100px; border-radius: 25px;"></img>
+					</button>
 
-				<div class="entry-content">
-					<div class="content-title">
-						<h4>Juvenile Diabetes Research Foundation</h4>
-					</div>
-					<div class="content-body">
-						<causes-text>
-							<?php
-							include ('textCause3.html');
-							?>
-						</causes-text>
+
+					<div class="entry-content">
+
+						<div class="content-title">
+							<h4>Car Free America</h4>
+						</div>
+
+						<div class="content-body">
+							<causes-text>
+								<?php
+								include ('textCause1.html');
+								?>
+							</causes-text>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<!-- Cause 4 -->
-			<div class="causes-entry">
+				<!-- Cause 2 -->
+				<div class="causes-entry">
 
-				<button class="cause-bttn" onclick="cause4()">
-					<img src="resources\media\logo-NCTE.png"
-						style="height: 100px; width: 100px; border-radius: 25px;"></img>
-				</button>
-				<div class="entry-content">
-					<div class="content-title">
-						<h4> National Center for Transgender Equality </h4>
+					<button class="cause-bttn" onclick="cause2()" target="_blank">
+						<img src="resources\media\logo-SBD.png"
+							style="height: 100px; width: 100px; border-radius: 25px;"></img>
+					</button>
+
+					<div class="entry-content">
+						<div class="content-title">
+							<h4>Segregation by Design</h4>
+						</div>
+						<div class="content-body">
+							<causes-text>
+								<?php
+								include ('textCause2.html');
+								?>
+							</causes-text>
+						</div>
+
 					</div>
-					<div class="content-body">
-						<causes-text>
-							<?php
-							include ('textCause4.html');
-							?>
-						</causes-text>
+				</div>
+
+				<!-- Cause 3 -->
+				<div class="causes-entry">
+
+					<button class="cause-bttn" onclick="cause3()">
+						<img src="resources\media\logo-JDRF.jpg"
+							style="height: 100px; width: 100px; border-radius: 25px;"></img>
+					</button>
+
+					<div class="entry-content">
+						<div class="content-title">
+							<h4>Juvenile Diabetes Research Foundation</h4>
+						</div>
+						<div class="content-body">
+							<causes-text>
+								<?php
+								include ('textCause3.html');
+								?>
+							</causes-text>
+						</div>
+					</div>
+				</div>
+
+				<!-- Cause 4 -->
+				<div class="causes-entry">
+
+					<button class="cause-bttn" onclick="cause4()">
+						<img src="resources\media\logo-NCTE.png"
+							style="height: 100px; width: 100px; border-radius: 25px;"></img>
+					</button>
+					<div class="entry-content">
+						<div class="content-title">
+							<h4> National Center for Transgender Equality </h4>
+						</div>
+						<div class="content-body">
+							<causes-text>
+								<?php
+								include ('textCause4.html');
+								?>
+							</causes-text>
+						</div>
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 	</div>
 

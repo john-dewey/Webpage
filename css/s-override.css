@@ -8,14 +8,15 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 10px;
   color: white;
 }
 
 p {
   display: inline;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 16px;
   color: white;
 }
@@ -23,19 +24,19 @@ p {
 h1 {
   font-size: 20px;
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
 }
 
 h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 16px;
   color: white;
   font-weight: bold;
 }
 
 h3 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 14px;
   color: white;
   font-weight: bold;
@@ -43,7 +44,7 @@ h3 {
 
 h4 {
   display: inline;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 12px;
   color: white;
 }
@@ -51,7 +52,6 @@ h4 {
 footer {
   margin-top: auto;
 }
-
 
 
 html {
@@ -75,14 +75,14 @@ a {
     flex-direction: column;
     min-height: 100vh;
   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: white;
   }
   
   p {
     display: inline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: white;
   }
@@ -90,19 +90,19 @@ a {
   h1 {
     font-size: 60px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-weight: bold;
   }
   
   h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 32px;
     color: white;
     font-weight: bold;
   }
   
   h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 24px;
     color: white;
     font-weight: bold;
@@ -110,7 +110,7 @@ a {
   
   h4 {
     display: inline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: white;
   }
