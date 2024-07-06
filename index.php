@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
 	<link rel="stylesheet" href="css\f-loader.css">
 	<link rel="stylesheet" href="css\f-redirect.css">
-	<link rel="stylesheet" href="css\p-responsive-index.css">
+	<link rel="stylesheet" href="css\p-index.css">
 	<link rel="stylesheet" href="css\s-override.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
