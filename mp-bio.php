@@ -17,14 +17,16 @@
         ?>
     </header>
 
+    <!-- Top Level -->
     <div class="row">
         <div class="col-12 header">
             <h1>About Me</h1>
         </div>
     </div>
 
+    <!-- Second Level -->
     <div class="row">
-        <div class="col-5">
+        <div class="col-5 container">
             <!-- Interest Input -->
             <div class="top-box-interests">
                 <h3>Interests</h3>
@@ -40,13 +42,15 @@
             </div>
         </div>
 
-        <div class="col-2 top-picture">
-            <img src="resources\media\image-me.jpg"
-                style="border-radius: 25px; width: 200px;border: 3px solid #000000;">
-            </img>
+        <div class="col-2 container">
+            <div class="top-picture">
+                <img src="resources\media\image-me.jpg"
+                    style="border-radius: 25px; width: 200px;border: 3px solid #000000;">
+                </img>
+            </div>
         </div>
 
-        <div class="col-5">
+        <div class="col-5 container">
             <!-- Name Input -->
             <div class="top-box-name">
                 <h3>Johnathan Dewey</h3>
@@ -68,19 +72,20 @@
 
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="bottom">
+    <!-- Third Level -->
+    <div class="row">
+        <div class="col-12">
+            <div class="bottom">
 
-                    <div style="text-align: center;">
-                        <h4>Biography</h4>
-                    </div>
-
-                    <?php
-                    include 'textBiography.html';
-                    ?>
+                <div style="text-align: center;">
+                    <h4>Biography</h4>
                 </div>
+
+                <?php
+                include 'textBiography.html';
+                ?>
             </div>
         </div>
     </div>

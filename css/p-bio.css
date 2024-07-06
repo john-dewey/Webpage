@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+.row{
+    display: flex;;
+}
 
 .row::after {
     content: "";
@@ -74,16 +76,19 @@
 .header{
     display: block;
     text-align: center;
-    margin: 0 0 2% 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-box-name{
     display: flex;
     flex-direction: column;
     width: 75%;
-    margin: 2% auto 0 auto;
-    padding: 2% 2% 2% 2%;
-
     border: 3px solid #000000;
     background-color: #7c7c7c;
     border-radius: 25px;
@@ -95,9 +100,6 @@
     display: flex;
     flex-direction: column;
     width: 75%;
-    margin: 2% auto 0 auto;
-    padding: 2% 2% 2% 2%;
-
     border: 3px solid #000000;
     background-color: #7c7c7c;
     border-radius: 25px;

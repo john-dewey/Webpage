@@ -10,6 +10,9 @@ causes-text{
     color: white;
 }
 
+.row{
+    display: flex;
+}
 .row::after {
     content: "";
     clear: both;
