@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -63,12 +70,7 @@
     border: 1px solid red;
   }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-}
+
 
 .information {
     float: left;
