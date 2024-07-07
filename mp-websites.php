@@ -17,20 +17,28 @@
         ?>
     </header>
 
-    <div class="project-message">
-        <h1>My Web Projects</h1>
-    </div>
-    <div class="project-container">
-        <div>
-            <?php include 'p-w-webpage.php'; ?>
+    <!-- Top Level -->
+    <div class="row">
+        <div class="col-12 page-header">
+            <h1>My Web Projects</h1>
         </div>
-        <div>
-            <?php include 'p-w-genealogy.php'; ?>
+    </div>
+
+    <!-- Project List -->
+    <div class="row">
+        <div class="col-12 container">
+            <!-- Johanthan Dewey Webpage -->
+            <div>
+                <?php include 'p-w-webpage.php'; ?>
+            </div>
+            <!-- Dewey Family Genealogy -->
+            <div>
+                <?php include 'p-w-genealogy.php'; ?>
+            </div>
         </div>
     </div>
 
     <footer>
-
         <?php
         include 'f-footer.php';
         ?>

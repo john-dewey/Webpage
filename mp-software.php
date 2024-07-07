@@ -16,29 +16,41 @@
         ?>
     </header>
 
-    <div class="project-message">
-        <h1>My Software Projects</h1>
+    <!-- Top Level -->
+    <div class="row">
+        <div class="col-12 page-header">
+            <h1>My Software Projects</h1>
+        </div>
     </div>
-    <div class="project-container">
-        <div>
-            <?php include 'p-s-translator.php'; ?>
-        </div>
-        <div>
-            <?php include 'p-s-deepdrug.php'; ?>
-        </div>
-        <div>
-            <?php include 'p-s-dreamsandnightmares.php'; ?>
-        </div>
-        <div>
-            <?php include 'p-s-imageprocessor.php'; ?>
-        </div>
-        <div>
-            <?php include 'p-s-fuforce.php'; ?>
-        </div>
-        <div>
-            <?php include 'p-s-mancala.php'; ?>
-        </div>
 
+    <!-- Project List -->
+    <div class="row">
+        <div class="col-12 container">
+            <!-- Translator -->
+            <div>
+                <?php include 'p-s-translator.php'; ?>
+            </div>
+            <!-- Deep Drug -->
+            <div>
+                <?php include 'p-s-deepdrug.php'; ?>
+            </div>
+            <!-- Dreams and Nightmares -->
+            <div>
+                <?php include 'p-s-dreamsandnightmares.php'; ?>
+            </div>
+            <!-- Image Processor -->
+            <div>
+                <?php include 'p-s-imageprocessor.php'; ?>
+            </div>
+            <!-- FuForce -->
+            <div>
+                <?php include 'p-s-fuforce.php'; ?>
+            </div>
+            <!-- Mancala -->
+            <div>
+                <?php include 'p-s-mancala.php'; ?>
+            </div>
+        </div>
     </div>
 
     <footer>

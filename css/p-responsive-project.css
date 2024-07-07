@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .row{
+    display: flex;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .col-1 {
+    width: 8.33%;
+  }
+  
+  .col-2 {
+    width: 16.66%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.33%;
+  }
+  
+  .col-5 {
+    width: 41.66%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.33%;
+  }
+  
+  .col-8 {
+    width: 66.66%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-10 {
+    width: 83.33%;
+  }
+  
+  .col-11 {
+    width: 91.66%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    border: 1px solid red;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+
+}
+
+
+.redirect-bttn{
+    border: none;
+    border-radius: 25px;
+    margin: 15px 0 0 10px;
+    cursor: pointer;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: #7c7c7c;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    margin: auto auto 25px auto;
+    padding: 10px 10px;
+}
+
+.project-head {
+    display: block;
+}
+
+.project-title {
+    display: block;
+    text-align: center;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+.project-stats {
+    display: block;
+    margin: 0 0 0 10px;
+}
+
+
+.project-description {
+    display: block;
+    margin: 10px 10px 0 10px;
+    text-align: justify;
+}
+
+.project-downloads{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 5px 0 0 25px;
+}
+
+.file{
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.filename{
+    display: block;
+    margin: 0 0 0 15px;
+}
+
+
+
+
+.project-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 25px 0;
+}
+
+.project-conatiner {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

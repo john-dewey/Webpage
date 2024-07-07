@@ -19,28 +19,34 @@
         ?>
     </header>
 
+    <!-- Top Level -->
     <div class="row">
         <div class="col-12 page-header">
             <h1> All My Work, All in One Place. </h1>
         </div>
     </div>
 
+    <!-- Second Level -->
     <div class="row">
+        <!-- Software -->
         <div class="col-4 container">
             <button class="bttn" onclick="software()">
                 <h2>Software</h2>
             </button>
         </div>
+        <!-- Websites-->
         <div class="col-4 container">
             <button class="bttn" onclick="website()">
                 <h2>Websites</h2>
             </button>
         </div>
+        <!-- Academia -->
         <div class="col-4 container">
             <button class="bttn" onclick="academia()">
                 <h2>Academia</h2>
             </button>
         </div>
+        <!-- Cities -->
         <div class="col-4 container">
             <button class="bttn" onclick="cities()">
                 <h2>Cities</h2>
