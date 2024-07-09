@@ -2,17 +2,44 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
-causes-text{
+img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 25%;
+
+}
+
+.cause-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    causes-text {
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+        color: white;
+    }
+}
+
+causes-text {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 12px;
     color: white;
 }
 
-.row{
-    display: flex;
-}
+
+
+
 .row::after {
     content: "";
     clear: both;
@@ -69,20 +96,10 @@ causes-text{
 
 [class*="col-"] {
     float: left;
-  }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-
-    causes-text{
-        font-family: 'Trebuchet MS', sans-serif;
-        font-size: 10px;
-        color: white;
-    }
+    border: 1px solid red;
 }
+
+
 
 
 .information {
@@ -107,14 +124,13 @@ causes-text{
 
 .information-news {
     display: block;
-    width: 80%;
 
     border: 3px solid #000000;
     background-color: #7c7c7c;
     border-radius: 25px;
 
     max-height: end;
-    margin: 2% 0 0 0;
+    margin: 2% 5% 0 5%;
 }
 
 .news-header {
@@ -142,7 +158,7 @@ causes-text{
 .causes-header {
     display: block;
     text-align: center;
-    margin: 2% 0 0 0;
+    margin: 2% 5% 0 5%;
 }
 
 .causes-entry {
@@ -152,14 +168,33 @@ causes-text{
     max-height: max-content;
     align-content: center;
     align-items: center;
-    margin: 2% 0 0 0;
-    width: 90%;
+    margin: 5% 5% 0 5%;
 }
+
+.entry-left {
+    margin: auto 5% auto 0;
+}
+
+.entry-right {
+    position: relative;
+}
+
+.right-title {
+    text-align: center;
+}
+
+.right-body {
+    text-align: justify;
+    line-height: 75%;
+}
+
+
+
+
+
 
 .entry-graphic {
     display: block;
-    height: 100px;
-    width: 100px;
     border-radius: 25px;
 }
 
@@ -168,11 +203,8 @@ causes-text{
 
 }
 
-.cause-bttn{
+.cause-bttn {
     border: none;
-    height: 100px;
-    width: 100px;
-    border-radius: 25px;
     margin: 0 2% 0 0;
     cursor: pointer;
 }

@@ -10,71 +10,71 @@ causes-text{
   color: white;
 }
 
-.row{
+.footer-row{
   display: flex;
 }
-.row::after {
+.footer-row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.col-1 {
+.footer-col-1 {
   width: 8.33%;
 }
 
-.col-2 {
+.footer-col-2 {
   width: 16.66%;
 }
 
-.col-3 {
+.footer-col-3 {
   width: 25%;
 }
 
-.col-4 {
+.footer-col-4 {
   width: 33.33%;
 }
 
-.col-5 {
+.footer-col-5 {
   width: 41.66%;
 }
 
-.col-6 {
+.footer-col-6 {
   width: 50%;
 }
 
-.col-7 {
+.footer-col-7 {
   width: 58.33%;
 }
 
-.col-8 {
+.footer-col-8 {
   width: 66.66%;
 }
 
-.col-9 {
+.footer-col-9 {
   width: 75%;
 }
 
-.col-10 {
+.footer-col-10 {
   width: 83.33%;
 }
 
-.col-11 {
+.footer-col-11 {
   width: 91.66%;
 }
 
-.col-12 {
+.footer-col-12 {
   width: 100%;
 }
 
-[class*="col-"] {
+[class*="footer-col-"] {
   float: left;
   border-color: red;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
+  [class*="footer-col-"] {
     width: 100%;
   }
 
@@ -93,7 +93,7 @@ causes-text{
 
   .footer-top{
     display:flex;
-    flex-direction: row;
+    flex-direction: footer-row;
 
     align-items: center;
   }
@@ -109,6 +109,6 @@ causes-text{
 
   .footer-bottom{
     display: block;
-    flex-direction: row;
+    flex-direction: footer-row;
     text-align: center;
   }

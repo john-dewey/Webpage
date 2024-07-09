@@ -28,25 +28,25 @@
 
 <body>
 	<div class="row">
-		<div class="name">
+		<div class="name-container">
 			<h4>J . D E W E Y</h4>
 		</div>
 
 
-		<div class="col-12 nav-container">
-			<button class="head-bttn" onclick="home()">
+		<div class="header-col-12 redirect-container">
+			<button class="header-button" onclick="home()">
 				<h4>Home</h4>
 			</button>
 
-			<button class="head-bttn" onclick="bio()">
+			<button class="header-button" onclick="bio()">
 				<h4>About</h4>
 			</button>
 
-			<button class="head-bttn" onclick="contact()">
+			<button class="header-button" onclick="contact()">
 				<h4>Contact</h4>
 			</button>
 
-			<button class="head-bttn" onclick="portfolio()">
+			<button class="header-button" onclick="portfolio()">
 				<h4>Portfolios</h4>
 			</button>
 		</div>
