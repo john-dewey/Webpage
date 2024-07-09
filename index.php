@@ -156,11 +156,6 @@
 		</div>
 	</div>
 
-
-
-
-
-
 	<footer>
 		<?php
 		include 'f-footer.php';
