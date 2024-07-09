@@ -116,6 +116,7 @@ causes-text {
 .right-body {
     text-align: justify;
     line-height: 75%;
+    overflow-y: hidden;
 }
 
 

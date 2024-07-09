@@ -8,6 +8,8 @@ body {
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 10px;
   color: white;
+
+  overflow-y: scroll;
 }
 
 p {
@@ -71,6 +73,8 @@ a {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: white;
+
+    overflow-y: scroll;
   }
   
   p {
