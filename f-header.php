@@ -5,7 +5,7 @@
 <head>
 	<title>Header</title>
 	<link rel="stylesheet" href="css\f-header.css">
-	<link rel="stylesheet" href="css\s-text.css">
+	<link rel="stylesheet" href="css\s-override.css">
 
 	<script>
 		function home() {
@@ -29,25 +29,25 @@
 <body>
 	<div class="row">
 		<div class="name">
-			<web-header4>J . T . D e w e y</web-header4>
+			<h4>J . D E W E Y</h4>
 		</div>
 
 
 		<div class="col-12 nav-container">
 			<button class="head-bttn" onclick="home()">
-				<web-header4>Home</web-header4>
+				<h4>Home</h4>
 			</button>
 
 			<button class="head-bttn" onclick="bio()">
-				<web-header4>About</web-header4>
+				<h4>About</h4>
 			</button>
 
 			<button class="head-bttn" onclick="contact()">
-				<web-header4>Contact</web-header4>
+				<h4>Contact</h4>
 			</button>
 
 			<button class="head-bttn" onclick="portfolio()">
-				<web-header4>Portfolios</web-header4>
+				<h4>Portfolios</h4>
 			</button>
 		</div>
 
