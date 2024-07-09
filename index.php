@@ -4,9 +4,8 @@
 <head>
 	<title>Homepage</title>
 	<link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
-	<link rel="stylesheet" href="css\f-loader.css">
-	<link rel="stylesheet" href="css\f-redirect.css">
 	<link rel="stylesheet" href="css\p-index.css">
+	<link rel="stylesheet" href="css\s-responsive.css">
 	<link rel="stylesheet" href="css\s-override.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,20 +14,12 @@
 
 </head>
 
-<body onload="timeoutFunction()">
-
-	
-
+<body>
 	<header>
 		<?php
 		include 'f-header.php';
 		?>
 	</header>
-
-	<div id="myDiv" class="animate-bottom">
-		<!-- Top Level -->
-
-	</div>
 
 	<div class="row">
 		<div class="col-7 information">

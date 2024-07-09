@@ -5,6 +5,7 @@
     <title>About</title>
     <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
     <link rel="stylesheet" href="css\p-bio.css">
+    <link rel="stylesheet" href="css\s-responsive.css">
     <link rel="stylesheet" href="css\s-override.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>

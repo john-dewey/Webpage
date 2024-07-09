@@ -1,84 +1,6 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
 
-causes-text{
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 12px;
-  color: white;
-}
 
-.footer-row{
-  display: flex;
-}
-.footer-row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-.footer-col-1 {
-  width: 8.33%;
-}
-
-.footer-col-2 {
-  width: 16.66%;
-}
-
-.footer-col-3 {
-  width: 25%;
-}
-
-.footer-col-4 {
-  width: 33.33%;
-}
-
-.footer-col-5 {
-  width: 41.66%;
-}
-
-.footer-col-6 {
-  width: 50%;
-}
-
-.footer-col-7 {
-  width: 58.33%;
-}
-
-.footer-col-8 {
-  width: 66.66%;
-}
-
-.footer-col-9 {
-  width: 75%;
-}
-
-.footer-col-10 {
-  width: 83.33%;
-}
-
-.footer-col-11 {
-  width: 91.66%;
-}
-
-.footer-col-12 {
-  width: 100%;
-}
-
-[class*="footer-col-"] {
-  float: left;
-  border-color: red;
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="footer-col-"] {
-    width: 100%;
-  }
-
-}
 
 .footer-container{
 
@@ -93,7 +15,8 @@ causes-text{
 
   .footer-top{
     display:flex;
-    flex-direction: footer-row;
+    flex-direction: row;
+    flex-wrap: nowrap;
 
     align-items: center;
   }
@@ -109,6 +32,6 @@ causes-text{
 
   .footer-bottom{
     display: block;
-    flex-direction: footer-row;
+    flex-direction: row;
     text-align: center;
   }

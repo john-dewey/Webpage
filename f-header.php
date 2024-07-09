@@ -5,6 +5,7 @@
 <head>
 	<title>Header</title>
 	<link rel="stylesheet" href="css\f-header.css">
+	<link rel="stylesheet" href="css\s-responsive.css">
 	<link rel="stylesheet" href="css\s-override.css">
 
 	<script>
@@ -33,7 +34,7 @@
 		</div>
 
 
-		<div class="header-col-12 redirect-container">
+		<div class="col-12 redirect-container">
 			<button class="header-button" onclick="home()">
 				<h4>Home</h4>
 			</button>
