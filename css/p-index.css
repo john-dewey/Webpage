@@ -45,13 +45,8 @@ causes-text {
 .information-news {
     display: block;
 
-    border: 3px solid #000000;
-    background-color: #7c7c7c;
-    border-radius: 25px;
-
     max-height: end;
     margin: 5% 5% 0 5%;
-    padding: 5% 5% 5% 5%
 }
 
 .news-header {

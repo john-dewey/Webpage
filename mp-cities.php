@@ -2,11 +2,19 @@
 <html lang="en-us">
 
 <head>
+    <!-- Title -->
     <title>Cities</title>
-    <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
+
+    <!-- Imports -->
+	<link rel="stylesheet" href="css\f-elements.css">
+	<link rel="stylesheet" href="css\s-responsive.css">
+	<link rel="stylesheet" href="css\s-override.css">
+
+	<!-- Class CSS File -->
     <link rel="stylesheet" href="css\p-software.css">
-    <link rel="stylesheet" href="css\s-responsive.css">
-    <link rel="stylesheet" href="css\s-override.css">
+
+    <!-- Meta Information -->
+    <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 

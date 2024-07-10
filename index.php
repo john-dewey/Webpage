@@ -2,13 +2,20 @@
 <html lang="en-us">
 
 <head>
+	<!-- Title -->
 	<title>Homepage</title>
-	<link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
-	<link rel="stylesheet" href="css\p-index.css">
+	
+	<!-- Imports -->
+	<link rel="stylesheet" href="css\f-elements.css">
 	<link rel="stylesheet" href="css\s-responsive.css">
 	<link rel="stylesheet" href="css\s-override.css">
+	<!-- Class CSS File -->
+	<link rel="stylesheet" href="css\p-index.css">
+
+	<link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!-- Javascript -->
 	<script src="javascript\redirect.js"></script>
 	<script src="javascript\loader.js"></script>
 
@@ -38,7 +45,7 @@
 			</div>
 
 			<!-- News Post -->
-			<div class="information-news">
+			<div class="information-news box">
 				<div class="news-header">
 					<h2>What I'm Currently Doing</h2>
 				</div>

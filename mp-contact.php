@@ -2,14 +2,20 @@
 <html lang="en-us">
 
 <head>
+    <!-- Title -->
     <title>Contact</title>
-    <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
-    <link rel="stylesheet" href="css\p-contatct.css">
+
+    <!-- Imports -->
+    <link rel="stylesheet" href="css\f-elements.css">
     <link rel="stylesheet" href="css\s-responsive.css">
-    <link rel="stylesheet" href="css\f-graphics.css">
     <link rel="stylesheet" href="css\s-override.css">
+    <!-- Class CSS File -->
+    <link rel="stylesheet" href="css\p-contact.css">
+
+    <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Javascript -->
     <script src="javascript\redirect.js"></script>
 </head>
 
