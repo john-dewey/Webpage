@@ -4,6 +4,8 @@
 <head>
     <title>About</title>
     <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
+    <link rel="stylesheet" href="css\f-download.css">
+    <link rel="stylesheet" href="css\f-elements.css">
     <link rel="stylesheet" href="css\p-bio.css">
     <link rel="stylesheet" href="css\s-responsive.css">
     <link rel="stylesheet" href="css\s-override.css">
@@ -29,7 +31,7 @@
     <div class="row">
         <div class="col-5 container">
             <!-- Interest Input -->
-            <div class="top-box-interests">
+            <div class="top-interests box">
                 <h3>Interests</h3>
                 <br>Video Games
                 <br>Music
@@ -46,14 +48,14 @@
         <div class="col-2 container">
             <div class="top-picture">
                 <img src="resources\media\image-me.jpg"
-                    style="border-radius: 25px; width: 200px;border: 3px solid #000000;">
+                    style="border-radius: 5%; width: 200px;border: 3px solid #000000;">
                 </img>
             </div>
         </div>
 
         <div class="col-5 container">
             <!-- Name Input -->
-            <div class="top-box-name">
+            <div class="top-name box">
                 <h3>Johnathan Dewey</h3>
                 <h4>ジョン・デューウィー</h4>
                 <h4>He/Him/His</h4>
@@ -77,10 +79,11 @@
 
     <!-- Third Level -->
     <div class="row">
-        <div class="col-12">
-            <div class="bottom">
+        <div class="col-12 container">
+            <div class="bottom box">
 
                 <div style="text-align: center;">
+                    <br>
                     <h4>Biography</h4>
                 </div>
 

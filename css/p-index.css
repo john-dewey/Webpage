@@ -114,7 +114,7 @@ causes-text {
 
 
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* LANDSCAPE DEVICES */
 @media only screen and (min-width: 768px) {
     .right-body {
         text-align: justify;

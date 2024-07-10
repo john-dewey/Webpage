@@ -1,77 +1,85 @@
-
-
-.header{
-    display: block;
-    text-align: center;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-box-name{
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    border: 3px solid #000000;
-    background-color: #7c7c7c;
-    border-radius: 25px;
-    text-align: center;
-    
-}
-
-.top-box-interests{
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    border: 3px solid #000000;
-    background-color: #7c7c7c;
-    border-radius: 25px;
-    text-align: center;
-    
-}
-
+/* MOBILE DEVICES */
 @media only screen and (max-width: 600px) {
-    .top-box-interests{
-        display:none;
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .top-name {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        text-align: center;
+    }
+
+    .top-interests {
+        display: none;
+    }
+
+    .bottom {
+        display: inline-block;
+        text-align: justify;
+        overflow-y: scroll;
+
+        width: 75%;
+        height: 250px;
     }
 }
 
-.top-picture{
-    display: block;
-    text-align: center;
 
-}
-.bottom
-{
-    display: inline-block;
-    text-align: justify;
-    margin: 2% 10% 0 10%;
-    padding: 2% 2% 2% 2%;
+/* LANDSCAPE DEVICES */
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header {
+        display: block;
+        text-align: center;
+    }
 
-    border: 3px solid #000000;
-    background-color: #7c7c7c;
-    border-radius: 25px;
-}
+    .top-interests {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 75%;
+        flex: 1;
 
-.download{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: 2% 0 0 0;
+    }
 
-}
+    .top-picture {
+        display: block;
+        text-align: center;
 
-.file{
-    display: block;
-}
+    }
 
-.filename{
-    display: block;
+    .top-name {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 75%;
+        flex: 1;
+    }
 
+    .bottom {
+        display: inline-block;
+        text-align: justify;
+        width: 75%;
+        
+    }
 }
