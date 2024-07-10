@@ -1,4 +1,8 @@
-
+causes-text {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    color: white;
+}
 
 img {
     max-width: 100px;
@@ -19,35 +23,21 @@ causes-text {
     color: white;
 }
 
-@media only screen and (max-width: 768px) {
-
-    causes-text {
-        font-family: 'Trebuchet MS', sans-serif;
-        font-size: 10px;
-        color: white;
-    }
-}
-
-
-
-
+/* Information Elements*/
 
 .information {
-    float: left;
     display: flex;
+    float: left;
     flex-direction: column;
-
     align-items: center;
 }
 
 .information-header {
-    display: block;
     text-align: center;
     margin: 2% 0 0 0;
 }
 
 .information-time {
-    display: block;
     text-align: center;
     margin: 2% 0 0 0;
 }
@@ -60,7 +50,8 @@ causes-text {
     border-radius: 25px;
 
     max-height: end;
-    margin: 2% 5% 0 5%;
+    margin: 5% 5% 0 5%;
+    padding: 5% 5% 5% 5%
 }
 
 .news-header {
@@ -73,10 +64,12 @@ causes-text {
 .news-body {
     display: block;
     text-align: justify;
+    height: 200px;
+    overflow-y: scroll;
 
     margin: 2% 0 0 0;
-    padding: 2% 2% 2% 2%;
 }
+
 
 .causes {
     display: flex;
@@ -88,7 +81,7 @@ causes-text {
 .causes-header {
     display: block;
     text-align: center;
-    margin: 2% 5% 0 5%;
+    margin: 2% 0 0 0;
 }
 
 .causes-entry {
@@ -111,39 +104,30 @@ causes-text {
 
 .right-title {
     text-align: center;
+    margin: 0 0 2% 0;
 }
 
 .right-body {
-    text-align: justify;
-    line-height: 75%;
-    overflow-y: hidden;
+    text-align: center;
+    line-height: 100%;
 }
 
 
-.entry-graphic {
-    display: block;
-    border-radius: 25px;
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .right-body {
+        text-align: justify;
+        line-height: 75%;
+    }
+
+    .news-body {
+        display: block;
+        text-align: justify;
+        height: max-content;
+        overflow-y: hidden;
+
+        margin: 2% 0 0 0;
+        padding: 2% 2% 2% 2%;
+    }
 }
-
-.entry-content {
-    display: block;
-
-}
-
-.cause-bttn {
-    border: none;
-    margin: 0 2% 0 0;
-    cursor: pointer;
-}
-
-.content-title {
-    display: block;
-}
-
-.content-body {
-    margin: 2% 0 0 0;
-    display: block;
-    max-height: max-content;
-    line-height: 0.75;
-}
-

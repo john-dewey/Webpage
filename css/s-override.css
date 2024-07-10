@@ -1,68 +1,69 @@
-body {
-  background-image: url("../resources/media/image-background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+/* MOBILE DEVICES */
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("../resources/media/image-background.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
   
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 10px;
-  color: white;
-
-  overflow-y: scroll;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    color: white;
+  }
+  
+  p {
+    display: inline;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  h4 {
+    display: inline;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  
+  html {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
-p {
-  display: inline;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 16px;
-  color: white;
-}
-
-h1 {
-  font-size: 24px;
-  color: white;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-weight: bold;
-}
-
-h2 {
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
-}
-
-h3 {
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
-}
-
-h4 {
-  display: inline;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 14px;
-  color: white;
-}
-
-footer {
-  margin-top: auto;
-}
-
-
-html {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-@media only screen and (min-width: 768px){
+/* LANDSCAPE DEVICES */
+@media only screen and (min-width: 600px){
   body {
     background-image: url("../resources/media/image-background.png");
     background-position: center;
@@ -73,8 +74,6 @@ a {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: white;
-
-    overflow-y: scroll;
   }
   
   p {
@@ -128,4 +127,6 @@ a {
     color: white;
   }
 }
+
+
 
