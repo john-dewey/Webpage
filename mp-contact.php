@@ -7,10 +7,11 @@
 
     <!-- Imports -->
     <link rel="stylesheet" href="css\f-elements.css">
+    <link rel="stylesheet" href="css\f-graphics.css">
     <link rel="stylesheet" href="css\s-responsive.css">
     <link rel="stylesheet" href="css\s-override.css">
     <!-- Class CSS File -->
-    <link rel="stylesheet" href="css\p-contact.css">
+    <link rel="stylesheet" href="css\p-contatct.css">
 
     <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +46,7 @@
             </div>
 
             <!-- Work Information -->
-            <div class="container-box">
+            <div class="container box">
 
                 <button class="work-bttn" onclick="work()">
                     <h3>Student at Furman University<br></h3>
@@ -69,7 +70,7 @@
             </div>
 
             <!-- Social Information -->
-            <div class="container-box">
+            <div class="container box">
                 <div class="grid">
                     <button class="social-bttn" onclick="social1()">
                         <div class="graphic-X"></div>

@@ -41,25 +41,25 @@
     <div class="row">
         <!-- Software -->
         <div class="col-3 container">
-            <button class="bttn" onclick="software()">
+            <button class="bttn box" onclick="software()">
                 <h2>Software</h2>
             </button>
         </div>
         <!-- Websites-->
         <div class="col-3 container">
-            <button class="bttn" onclick="website()">
+            <button class="bttn box" onclick="website()">
                 <h2>Websites</h2>
             </button>
         </div>
         <!-- Academia -->
         <div class="col-3 container">
-            <button class="bttn" onclick="academia()">
+            <button class="bttn box" onclick="academia()">
                 <h2>Academia</h2>
             </button>
         </div>
         <!-- Cities -->
         <div class="col-3 container">
-            <button class="bttn" onclick="cities()">
+            <button class="bttn box" onclick="cities()">
                 <h2>Cities</h2>
             </button>
         </div>
