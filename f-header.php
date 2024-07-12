@@ -28,30 +28,28 @@
 </head>
 
 <body>
+	<div class="f-h-name">
+		<h4>J . D E W E Y</h4>
+	</div>
+
 	<div class="row">
-		<div class="name-container">
-			<h4>J . D E W E Y</h4>
-		</div>
-
-
-		<div class="col-12 redirect-container">
-			<button class="header-button" onclick="home()">
+		<div class="col-12 f-h-redirects">
+			<button class="f-h-redirects-button" onclick="home()">
 				<h4>Home</h4>
 			</button>
 
-			<button class="header-button" onclick="bio()">
+			<button class="f-h-redirects-button" onclick="bio()">
 				<h4>About</h4>
 			</button>
 
-			<button class="header-button" onclick="contact()">
+			<button class="f-h-redirects-button" onclick="contact()">
 				<h4>Contact</h4>
 			</button>
 
-			<button class="header-button" onclick="portfolio()">
+			<button class="f-h-redirects-button" onclick="portfolio()">
 				<h4>Portfolios</h4>
 			</button>
 		</div>
-
 	</div>
 
 

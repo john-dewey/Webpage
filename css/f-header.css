@@ -1,41 +1,54 @@
-.header-button{
-  width: 12.5%;
-  text-align: center;
-  border: none;
-  background-color: #333;
-  cursor: pointer;
-}
-
-.header-button:hover{
-  background-color: pink;
-}
-
-.name-container{
-  display: flex;
-  position: absolute;
-  height: 40px;
-  width: 25%;
-  align-items: center;
-  justify-content: center;
-}
-
-.redirect-container{
-  display: flex;
-  justify-content: center;
-  height: 40px;
-  background-color: #333;
-}
-
-a{
+/* OVERRIDE: To Keep Menu Text Clean */
+a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-  .name-container{
+/* Landscape Devices */
+@media only screen and (min-width: 600px) {
+
+  /* Displays "J.D.E.W.E.Y." on the left of header */
+  .f-h-name {
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Container for the buttons in the header */
+  .f-h-redirects {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #333;
+  }
+
+  /* Buttons: Home, About Contact, Portfolio */
+  .f-h-redirects-button {
+    background-color: #333;
+    width: 12.5%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Hovering Effect */
+  .f-h-redirects-button:hover {
+    background-color: pink;
+  }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+
+  /* Displays "J.D.E.W.E.Y." on the left of header */
+  .f-h-name {
     display: none;
   }
 
-  .header-button{
+  /* Buttons: Home, About Contact, Portfolio*/
+  .f-h-redirects-button {
     width: 20%;
     text-align: center;
     border: none;
@@ -43,4 +56,3 @@ a{
     cursor: pointer;
   }
 }
-
