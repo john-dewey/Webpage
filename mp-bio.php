@@ -7,6 +7,7 @@
     
     <!-- Imports -->
 	<link rel="stylesheet" href="css\f-elements.css">
+    <link rel="stylesheet" href="css\f-download.css">
 	<link rel="stylesheet" href="css\s-responsive.css">
 	<link rel="stylesheet" href="css\s-override.css">
 	<!-- Class CSS File -->
@@ -66,7 +67,8 @@
 
 
                 <!-- Resume Input -->
-                <a href="resources\resume.pdf" download>
+                 <div class="download-container">
+                 <a href="resources\resume.pdf" download>
                     <div class="download">
                         <div class=file>
                             <img src="resources\media\graphic-paper.png" alt="Resume">
@@ -76,6 +78,8 @@
                         </div>
                     </div>
                 </a>
+                 </div>
+
 
             </div>
         </div>

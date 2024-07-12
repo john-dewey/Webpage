@@ -41,6 +41,7 @@
 
 /* LANDSCAPE DEVICES */
 @media only screen and (min-width: 768px) {
+
     .container {
         display: flex;
         flex-direction: column;
@@ -80,6 +81,5 @@
         display: inline-block;
         text-align: justify;
         width: 75%;
-        
     }
 }
