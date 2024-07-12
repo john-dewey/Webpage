@@ -2,10 +2,16 @@
 <html lang="en-us">
 
 <head>
+    <!-- Title -->
     <title>American Foreign Policy Justification in Video Games</title>
-    <link rel="stylesheet" href="css\p-project.css">
+
+    <!-- Imports -->
     <link rel="stylesheet" href="css\f-graphics.css">
+    <link rel="stylesheet" href="css\f-download.css">
     <link rel="stylesheet" href="css\s-override.css">
+    <link rel="stylesheet" href="css\p-project.css">
+
+    <!-- Meta Information -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>

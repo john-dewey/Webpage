@@ -2,12 +2,17 @@
 <html lang="en-us">
 
 <head>
+    <!-- Title -->
     <title>The Perpetuation of Racism Through Urban Planning in the United States</title>
-    <link rel="stylesheet" href="css\p-project.css">
-    <link rel="stylesheet" href="css\f-graphics.css">
-    <link rel="stylesheet" href="css\s-override.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Imports -->
+    <link rel="stylesheet" href="css\f-graphics.css">
+    <link rel="stylesheet" href="css\f-download.css">
+    <link rel="stylesheet" href="css\s-override.css">
+    <link rel="stylesheet" href="css\p-project.css">
+
+    <!-- Meta Information -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>

@@ -26,9 +26,11 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        width: 50%;
+
         text-align: center;
-        justify-content: center;
-        margin: 5% 0 0 0;
+        margin: 1% 0 0 0;
 
     }
 
@@ -37,7 +39,6 @@
     }
 
     .filename {
-        display: block;
         margin: 0% 0 0 5%;
     }
 }

@@ -2,10 +2,17 @@
 <html lang="en-us">
 
 <head>
+    <!-- Title -->
     <title>Diamanti</title>
-    <link rel="stylesheet" href="css\p-citiesProject.css">
+
+    <!-- CSS Imports -->
     <link rel="stylesheet" href="css\f-graphics.css">
     <link rel="stylesheet" href="css\s-override.css">
+
+    <!-- Class CSS File -->
+    <link rel="stylesheet" href="css\p-citiesProject.css">
+
+    <!-- Meta Imports -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
