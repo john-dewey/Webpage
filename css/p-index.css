@@ -1,128 +1,231 @@
-causes-text {
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 10px;
-    color: white;
-}
-
+/* OVERRIDE: scales images so that max width is 100 x 100 px" */
 img {
     max-width: 100px;
     height: auto;
     border-radius: 25%;
-
 }
 
+/* Button: is the button user presses to learn more about an endeavor" */
 .cause-button {
+    border-radius: 25%;
     background-color: rgba(255, 255, 255, 0);
     border: none;
     cursor: pointer;
 }
 
+/* Hovering Effect */
+.cause-button:hover {
+    background-color: #7c7c7c;
+}
+
+/* Custom Tag: applies this style to the text in "Endeavors Important to Me" */
 causes-text {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 12px;
     color: white;
 }
 
-/* Information Elements*/
-
-.information {
-    display: flex;
-    float: left;
-    flex-direction: column;
-    align-items: center;
+/* Main: Allows buffer between header and page */
+.i-main {
+    padding-top: 50px;
 }
 
-.information-header {
-    text-align: center;
-    margin: 2% 0 0 0;
-}
+/* MOBILE DEVICES */
+@media only screen and (max-width: 600px) {
 
-.information-time {
-    text-align: center;
-    margin: 2% 0 0 0;
-}
+    /* Container for Left Side of Main Page */
+    .information {
+        display: flex;
+        float: left;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.information-news {
-    display: block;
+    /* Header for Left Side of Main Page: "Welcome to my Page"" */
+    .information-header {
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
 
-    max-height: end;
-    margin: 5% 5% 0 5%;
-}
+    /* Container for the time display */
+    .information-time {
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
 
-.news-header {
-    display: block;
-    text-align: center;
+    /* Container for the news post */
+    .information-news {
+        display: block;
 
-    margin: 2% 0 0 0;
-}
+        max-height: end;
+        margin: 5% 5% 0 5%;
+    }
 
-.news-body {
-    display: block;
-    text-align: justify;
-    height: 200px;
-    overflow-y: scroll;
+    /* Header for the news post */
+    .news-header {
+        display: block;
+        text-align: center;
 
-    margin: 2% 0 0 0;
-}
+        margin: 2% 0 0 0;
+    }
 
+    /* Body for the news post */
+    .news-body {
+        display: block;
+        text-align: justify;
+        height: 200px;
+        overflow-y: scroll;
 
-.causes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float: left;
-}
+        margin: 2% 0 0 0;
+    }
 
-.causes-header {
-    display: block;
-    text-align: center;
-    margin: 2% 0 0 0;
-}
+    /* Container for the right side of the main page */
+    .causes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: left;
+    }
 
-.causes-entry {
-    display: flex;
-    flex-direction: row;
+    /* Header for Right Side of Main Page: "Endeavors Important to Me" */
+    .causes-header {
+        display: block;
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
 
-    max-height: max-content;
-    align-content: center;
-    align-items: center;
-    margin: 5% 5% 0 5%;
-}
+    /* Container for an entry into "Endeavors Important to Me" */
+    .causes-entry {
+        display: flex;
+        flex-direction: row;
 
-.entry-left {
-    margin: auto 5% auto 0;
-}
+        max-height: max-content;
+        align-content: center;
+        align-items: center;
+        margin: 5% 5% 0 5%;
+    }
 
-.entry-right {
-    position: relative;
-}
+    /* Container for an entry's button */
+    .entry-left {
+        margin: auto 5% auto 0;
+    }
 
-.right-title {
-    text-align: center;
-    margin: 0 0 2% 0;
-}
+    /* Container for a description */
+    .entry-right {
+        position: relative;
+    }
 
-.right-body {
-    text-align: center;
-    line-height: 100%;
+    /* Container for a title of cause */
+    .right-title {
+        text-align: center;
+        margin: 0 0 2% 0;
+    }
+
+    /* Container for the body of cause */
+    .right-body {
+        text-align: center;
+        line-height: 100%;
+    }
 }
 
 
 
 /* LANDSCAPE DEVICES */
-@media only screen and (min-width: 768px) {
-    .right-body {
-        text-align: justify;
-        line-height: 75%;
+@media only screen and (min-width: 600px) {
+
+    /* Container for Left Side of Main Page */
+    .information {
+        display: flex;
+        float: left;
+        flex-direction: column;
+        align-items: center;
     }
 
+    /* Header for Left Side of Main Page: "Welcome to my Page"" */
+    .information-header {
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
+
+    /* Container for the time display */
+    .information-time {
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
+
+    /* Container for the news post */
+    .information-news {
+        display: block;
+
+        max-height: end;
+        margin: 5% 5% 0 5%;
+    }
+
+    /* Header for the news post */
+    .news-header {
+        display: block;
+        text-align: center;
+
+        margin: 2% 0 0 0;
+    }
+
+    /* Body for the news post */
     .news-body {
         display: block;
         text-align: justify;
         height: max-content;
         overflow-y: hidden;
-
         margin: 2% 0 0 0;
         padding: 2% 2% 2% 2%;
     }
+
+    /* Container for the right side of the main page */
+    .causes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: left;
+    }
+
+    /* Header for Right Side of Main Page: "Endeavors Important to Me" */
+    .causes-header {
+        display: block;
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
+
+    /* Container for an entry into "Endeavors Important to Me" */
+    .causes-entry {
+        display: flex;
+        flex-direction: row;
+
+        max-height: max-content;
+        align-content: center;
+        align-items: center;
+        margin: 5% 5% 0 5%;
+    }
+
+    /* Header for Left Side of: "Endeavors Important to Me" */
+    .entry-left {
+        margin: auto 5% auto 0;
+    }
+
+    /* Container for a description */
+    .entry-right {
+        position: relative;
+    }
+
+    /* Container for a title of cause */
+    .right-title {
+        text-align: center;
+        margin: 0 0 2% 0;
+    }
+
+    /* Container for the body of cause */
+    .right-body {
+        text-align: justify;
+        line-height: 75%;
+    }
+
+
 }

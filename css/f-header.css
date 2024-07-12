@@ -3,6 +3,15 @@ a {
   text-decoration: none;
 }
 
+/* Hovering Effect */
+.f-h-redirects-button:hover {
+  background-color: pink;
+}
+/* Click Effect */
+.f-h-redirects-button:active {
+  background-color: pink;
+}
+
 /* Landscape Devices */
 @media only screen and (min-width: 600px) {
 
@@ -32,11 +41,6 @@ a {
     border: none;
     cursor: pointer;
   }
-
-  /* Hovering Effect */
-  .f-h-redirects-button:hover {
-    background-color: pink;
-  }
 }
 
 /* Mobile Devices */
@@ -45,6 +49,14 @@ a {
   /* Displays "J.D.E.W.E.Y." on the left of header */
   .f-h-name {
     display: none;
+  }
+
+  /* Container for the buttons in the header */
+  .f-h-redirects {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #333;
   }
 
   /* Buttons: Home, About Contact, Portfolio*/

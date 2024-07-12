@@ -32,7 +32,7 @@
 		?>
 	</header>
 
-	<div class="row">
+	<div class="row i-main">
 		<div class="col-7 information">
 			<!-- Header -->
 			<div class="information-header">

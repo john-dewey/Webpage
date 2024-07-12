@@ -3,7 +3,7 @@
     background-color: #7c7c7c;
     border-radius: 5%;
     padding: 5% 5% 5% 5%;
-    margin: 2% 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .page-header{
@@ -29,7 +29,7 @@
     .page-header{
         display: block;
         text-align: center;
-        margin: 5% 0 0 0;
+        margin: 50px 0 0 0;
     }
 
 }
