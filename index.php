@@ -4,6 +4,10 @@
 <head>
 	<!-- Title -->
 	<title>Homepage</title>
+
+	<!-- Description and Keywords (Keep <155 characters) -->
+	<meta name="description" content="">
+	<meta name="keywords" content="">
 	
 	<!-- Imports -->
 	<link rel="stylesheet" href="css\f-elements.css">
