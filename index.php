@@ -32,15 +32,15 @@
 		?>
 	</header>
 
-	<div class="row i-main">
-		<div class="col-7 information">
+	<div class="row p-i-main">
+		<div class="col-7 p-i-container-greeting">
 			<!-- Header -->
-			<div class="information-header">
+			<div class="p-i-header-greeting">
 				<h1>Welcome to my Page</h1>
 			</div>
 
 			<!-- Time Display -->
-			<div class="information-time">
+			<div class="p-i-container-time">
 				<h3>
 					<?php
 					include ('f-time.php');
@@ -49,11 +49,11 @@
 			</div>
 
 			<!-- News Post -->
-			<div class="information-news box">
-				<div class="news-header">
+			<div class="p-i-container-news box">
+				<div class="p-i-header-news">
 					<h2>What I'm Currently Doing</h2>
 				</div>
-				<div class="news-body">
+				<div class="p-i-body-news">
 					<?php
 					include ('textNewsPost.html');
 					?>
@@ -61,25 +61,25 @@
 			</div>
 		</div>
 
-		<div class="col-5 causes">
+		<div class="col-5 p-i-container-causes">
 			<!-- Header -->
-			<div class="causes-header">
+			<div class="p-i-header-entry">
 				<h2>Endeavors Important to Me</h2>
 			</div>
 
 			<!-- Cause 1 -->
-			<div class="causes-entry">
-				<div class="entry-left">
-					<button class="cause-button" onclick="cause1()">
+			<div class="p-i-container-entry">
+				<div class="p-i-contatiner-button">
+					<button class="p-i-cause-button" onclick="cause1()">
 						<img src="resources\media\logo-CFA.jpg"></img>
 					</button>
 				</div>
 
-				<div class="entry-right">
-					<div class="right-title">
+				<div class="p-i-container-description">
+					<div class="p-i-header-entry">
 						<h4>Car Free America</h4>
 					</div>
-					<div class="right-body">
+					<div class="p-i-body-entry">
 						<causes-text>
 							<?php
 							include ('textCause1.html');
@@ -90,18 +90,18 @@
 			</div>
 
 			<!-- Cause 2 -->
-			<div class="causes-entry">
-				<div class="entry-left">
-					<button class="cause-button" onclick="cause2()">
+			<div class="p-i-container-entry">
+				<div class="p-i-contatiner-button">
+					<button class="p-i-cause-button" onclick="cause2()">
 						<img src="resources\media\logo-SBD.png"></img>
 					</button>
 				</div>
 
-				<div class="entry-right">
-					<div class="right-title">
+				<div class="p-i-container-description">
+					<div class="p-i-header-entry">
 						<h4>Segregation by Design</h4>
 					</div>
-					<div class="right-body">
+					<div class="p-i-body-entry">
 						<causes-text>
 							<?php
 							include ('textCause2.html');
@@ -112,18 +112,18 @@
 			</div>
 
 			<!-- Cause 3 -->
-			<div class="causes-entry">
-				<div class="entry-left">
-					<button class="cause-button" onclick="cause3()">
+			<div class="p-i-container-entry">
+				<div class="p-i-contatiner-button">
+					<button class="p-i-cause-button" onclick="cause3()">
 						<img src="resources\media\logo-JDRF.jpg"></img>
 					</button>
 				</div>
 
-				<div class="entry-right">
-					<div class="right-title">
+				<div class="p-i-container-description">
+					<div class="p-i-header-entry">
 						<h4>Juvenile Diabetes Research Foundation</h4>
 					</div>
-					<div class="right-body">
+					<div class="p-i-body-entry">
 						<causes-text>
 							<?php
 							include ('textCause3.html');
@@ -134,18 +134,18 @@
 			</div>
 
 			<!-- Cause 4 -->
-			<div class="causes-entry">
-				<div class="entry-left">
-					<button class="cause-button" onclick="cause4()">
+			<div class="p-i-container-entry">
+				<div class="p-i-contatiner-button">
+					<button class="p-i-cause-button" onclick="cause4()">
 						<img src="resources\media\logo-NCTE.png"></img>
 					</button>
 				</div>
 
-				<div class="entry-right">
-					<div class="right-title">
+				<div class="p-i-container-description">
+					<div class="p-i-header-entry">
 						<h4>National Center for Transgender Equality</h4>
 					</div>
-					<div class="right-body">
+					<div class="p-i-body-entry">
 						<causes-text>
 							<?php
 							include ('textCause4.html');
