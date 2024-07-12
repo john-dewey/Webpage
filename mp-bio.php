@@ -4,13 +4,13 @@
 <head>
     <!-- Title -->
     <title>About</title>
-    
+
     <!-- Imports -->
-	<link rel="stylesheet" href="css\f-elements.css">
+    <link rel="stylesheet" href="css\f-elements.css">
     <link rel="stylesheet" href="css\f-download.css">
-	<link rel="stylesheet" href="css\s-responsive.css">
-	<link rel="stylesheet" href="css\s-override.css">
-	<!-- Class CSS File -->
+    <link rel="stylesheet" href="css\s-responsive.css">
+    <link rel="stylesheet" href="css\s-override.css">
+    <!-- Class CSS File -->
     <link rel="stylesheet" href="css\p-bio.css">
 
     <link rel="icon" type="image/x-icon" href="resources\media\logo-jtd-fauxicon.jpg">
@@ -27,7 +27,7 @@
 
     <!-- Top Level -->
     <div class="row">
-        <div class="col-12 header">
+        <div class="col-12 page-header">
             <h1>About Me</h1>
         </div>
     </div>
@@ -67,18 +67,18 @@
 
 
                 <!-- Resume Input -->
-                 <div class="download-container">
-                 <a href="resources\resume.pdf" download>
-                    <div class="download">
-                        <div class=file>
-                            <img src="resources\media\graphic-paper.png" alt="Resume">
+                <div class="download-container">
+                    <a href="resources\resume.pdf" download>
+                        <div class="download">
+                            <div class=file>
+                                <img src="resources\media\graphic-paper.png" alt="Resume">
+                            </div>
+                            <div class="filename">
+                                <h4>Resume.pdf</h4>
+                            </div>
                         </div>
-                        <div class="filename">
-                            <h4>Resume.pdf</h4>
-                        </div>
-                    </div>
-                </a>
-                 </div>
+                    </a>
+                </div>
 
 
             </div>

@@ -2,10 +2,10 @@
 @media only screen and (max-width: 600px) {
     .download-container{
         display: flex;
-        justify-content: center;
+        float: left;
         margin: 1% 0 0 0;
     }
-    
+
     .download {
         display: flex;
         flex-direction: row;
@@ -31,8 +31,9 @@
 
     .download-container{
         display: flex;
-        justify-content: center;
+        float: left;
         margin: 1% 0 0 0;
+        width: 50%;
     }
 
     .download {
@@ -40,7 +41,7 @@
         flex-direction: row;
         align-items: center;
 
-        width: 50%;
+
 
         text-align: center;
         margin: 1% 0 0 0;

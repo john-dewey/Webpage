@@ -74,15 +74,17 @@
             <h3>Project Files</h3>
 
             <!-- Paper File -->
-            <div class="download">
-                <div class=file>
-                    <a href="resources\p-academia\Japanese-Buddhism\Research-Paper.pdf" download>
-                        <img src="resources\media\graphic-paper.png" alt="Research Paper">
-                    </a>
-                </div>
-                <div class="filename">
-                    <h4>Research-Paper.pdf</h4>
-                </div>
+            <div class="download-container">
+                <a href="resources\p-academia\Japanese-Buddhism\Research-Paper.pdf" download>
+                    <div class="download">
+                        <div class=file>
+                            <img src="resources\media\graphic-paper.png" alt="Research Paper">
+                        </div>
+                        <div class="filename">
+                            <h4>Research-Paper.pdf</h4>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

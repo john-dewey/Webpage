@@ -1,5 +1,12 @@
 /* MOBILE DEVICES */
 @media only screen and (max-width: 600px) {
+
+    .download-container{
+        display: flex;
+        justify-content: center;
+        margin: 1% 0 0 0;
+    }
+    
     .row {
         display: flex;
         flex-direction: column;
@@ -41,6 +48,12 @@
 
 /* LANDSCAPE DEVICES */
 @media only screen and (min-width: 768px) {
+
+    .download-container{
+        display: flex;
+        justify-content: center;
+        margin: 1% 0 0 0;
+    }
 
     .container {
         display: flex;
