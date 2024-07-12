@@ -20,8 +20,8 @@
         <div class="project-head">
 
             <div class="project-title">
-                <web-header2>Discrepancies Among Translation: <i>A Comparison Between English and Japanese Linguistic
-                        Properties</i></web-header2>
+                <h2>Discrepancies Among Translation: <i>A Comparison Between English and Japanese Linguistic
+                        Properties</i></h2>
             </div>
 
             <div class="project-info">
