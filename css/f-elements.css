@@ -6,6 +6,16 @@
     margin: 2% 0 0 0;
 }
 
+.page-header{
+    display: block;
+    text-align: center;
+    margin: 1% 0 0 0;
+}
+
+.transparent{
+    background-color: #ffffff00;
+}
+
 /* LANDSCAPE DEVICES */
 @media only screen and (min-width: 768px) {
     .box{
@@ -14,6 +24,12 @@
         border-radius: 5%;
         padding: 5% 5% 5% 5%;
         margin: 5% 0 0 0;
+    }
+
+    .page-header{
+        display: block;
+        text-align: center;
+        margin: 2% 0 0 0;
     }
 
 }

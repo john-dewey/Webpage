@@ -7,6 +7,7 @@
     
     <!-- Imports -->
 	<link rel="stylesheet" href="css\f-elements.css">
+    <link rel="stylesheet" href="css\f-graphics.css">
 	<link rel="stylesheet" href="css\s-responsive.css">
 	<link rel="stylesheet" href="css\s-override.css">
 

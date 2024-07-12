@@ -1,59 +1,57 @@
-/* MOBILE DEVICES */
-@media only screen and (max-width: 600px) {
-    
-}
-
-
-.redirect-bttn{
-    border: none;
-    border-radius: 25px;
-    margin: 15px 0 0 10px;
-    cursor: pointer;
-}
-
 .project {
     display: flex;
     flex-direction: column;
-    width: 75%;
+
     background-color: #7c7c7c;
     border-radius: 25px;
     border: 3px solid #000000;
-    margin: auto auto 25px auto;
-    padding: 10px 10px;
+
+    width: 80%;
+    margin: 5% auto 0 auto;
+    padding: 2% 2% 2% 2%;
+}
+
+.redirect-bttn{
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff00;
 }
 
 .project-head {
     display: block;
 }
 
-.project-title {
-    display: block;
-    text-align: center;
-}
-
-.project-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 0 0 10px;
-}
-
-.project-stats {
-    display: block;
-    margin: 0 0 0 10px;
-}
-
-
 .project-description {
-    display: block;
     margin: 10px 10px 0 10px;
-    text-align: justify;
+    text-align: center;
+    max-height: 250px;
+    overflow-y: scroll;
 }
 
 .project-downloads{
     display: flex;
     flex-direction: column;
-    margin: 10px 0 0 0;
+    align-content: center;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+.project-title {
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    margin: 2% 0 0 0;
+}
+
+.project-stats {
+    display: none;
 }
 
 .download{
@@ -88,4 +86,90 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+/* LANDSCAPE DEVICES */
+@media only screen and (min-width: 600px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        background-color: #7c7c7c;
+        border-radius: 25px;
+        border: 3px solid #000000;
+        margin: auto auto 25px auto;
+        padding: 10px 10px;
+    }
+
+    .redirect-bttn{
+        border: none;
+        border-radius: 25px;
+        margin: 15px 0 0 10px;
+        cursor: pointer;
+    }
+    
+    .project-head {
+        display: block;
+    }
+    
+    .project-title {
+        display: block;
+        text-align: center;
+    }
+    
+    .project-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 0 0 10px;
+    }
+    
+    .project-stats {
+        display: block;
+        margin: 0 0 0 10px;
+    }
+    
+    
+    .project-description {
+        display: block;
+        margin: 10px 10px 0 10px;
+        text-align: justify;
+    }
+    
+    .project-downloads{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 0 0;
+    }
+    
+    .download{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: 5px 0 0 25px;
+    }
+    
+    .file{
+        display: block;
+        margin: 0 0 10px 0;
+    }
+    
+    .filename{
+        display: block;
+        margin: 0 0 0 15px;
+    }
+    
+    .project-message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0 25px 0;
+    }
+    
+    .project-conatiner {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
 }
