@@ -66,94 +66,10 @@
 			<div class="p-i-header-entry">
 				<h2>Endeavors Important to Me</h2>
 			</div>
-
-			<!-- Cause 1 -->
-			<div class="p-i-container-entry">
-				<div class="p-i-contatiner-button">
-					<button class="p-i-cause-button" onclick="cause1()">
-						<img src="resources\media\logo-CFA.jpg"></img>
-					</button>
-				</div>
-
-				<div class="p-i-container-description">
-					<div class="p-i-header-entry">
-						<h4>Car Free America</h4>
-					</div>
-					<div class="p-i-body-entry">
-						<causes-text>
-							<?php
-							include ('textCause1.html');
-							?>
-						</causes-text>
-					</div>
-				</div>
-			</div>
-
-			<!-- Cause 2 -->
-			<div class="p-i-container-entry">
-				<div class="p-i-contatiner-button">
-					<button class="p-i-cause-button" onclick="cause2()">
-						<img src="resources\media\logo-SBD.png"></img>
-					</button>
-				</div>
-
-				<div class="p-i-container-description">
-					<div class="p-i-header-entry">
-						<h4>Segregation by Design</h4>
-					</div>
-					<div class="p-i-body-entry">
-						<causes-text>
-							<?php
-							include ('textCause2.html');
-							?>
-						</causes-text>
-					</div>
-				</div>
-			</div>
-
-			<!-- Cause 3 -->
-			<div class="p-i-container-entry">
-				<div class="p-i-contatiner-button">
-					<button class="p-i-cause-button" onclick="cause3()">
-						<img src="resources\media\logo-JDRF.jpg"></img>
-					</button>
-				</div>
-
-				<div class="p-i-container-description">
-					<div class="p-i-header-entry">
-						<h4>Juvenile Diabetes Research Foundation</h4>
-					</div>
-					<div class="p-i-body-entry">
-						<causes-text>
-							<?php
-							include ('textCause3.html');
-							?>
-						</causes-text>
-					</div>
-				</div>
-			</div>
-
-			<!-- Cause 4 -->
-			<div class="p-i-container-entry">
-				<div class="p-i-contatiner-button">
-					<button class="p-i-cause-button" onclick="cause4()">
-						<img src="resources\media\logo-NCTE.png"></img>
-					</button>
-				</div>
-
-				<div class="p-i-container-description">
-					<div class="p-i-header-entry">
-						<h4>National Center for Transgender Equality</h4>
-					</div>
-					<div class="p-i-body-entry">
-						<causes-text>
-							<?php
-							include ('textCause4.html');
-							?>
-						</causes-text>
-					</div>
-				</div>
-			</div>
+			<!-- Entries -->
+			<?php
+			include "f-endeavors.php";
+			?>
 		</div>
 	</div>
 

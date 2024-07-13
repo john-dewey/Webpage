@@ -1,0 +1,58 @@
+/* Custom Tag: applies this style to the text in "Endeavors Important to Me" */
+causes-text {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.f-en-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-en-entry-header{
+    text-align: center;
+    margin: 2% 0 1% 0;
+}
+
+.f-en-entry{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5% 0 5%;
+}
+
+.f-en-icon{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    position: relative;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    /* Resizes Icon Box */
+    width: 6rem;
+    height: 6rem;
+}
+
+.f-en-icon:hover{
+    scale: 1.25;
+}
+
+.f-en-button-container{
+    text-align: center;
+    flex-basis: 6rem;
+}
+
+.f-en-text-container{
+    text-align: justify;
+    margin: 0 0 0 5%;
+}

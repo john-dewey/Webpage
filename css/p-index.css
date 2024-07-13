@@ -85,47 +85,9 @@ causes-text {
         flex-direction: column;
         align-items: center;
         float: left;
+        margin: 5% 0 0 0;
     }
 
-    /* Header for Right Side of Main Page: "Endeavors Important to Me" */
-    .p-i-header-entry {
-        display: block;
-        text-align: center;
-        margin: 2% 0 0 0;
-    }
-
-    /* Container for an entry into "Endeavors Important to Me" */
-    .p-i-container-entry {
-        display: flex;
-        flex-direction: row;
-
-        max-height: max-content;
-        align-content: center;
-        align-items: center;
-        margin: 5% 5% 0 5%;
-    }
-
-    /* Container for an entry's button */
-    .p-i-contatiner-button {
-        margin: auto 5% auto 0;
-    }
-
-    /* Container for a description */
-    .p-i-container-description {
-        position: relative;
-    }
-
-    /* Container for a title of cause */
-    .p-i-header-entry {
-        text-align: center;
-        margin: 0 0 2% 0;
-    }
-
-    /* Container for the body of cause */
-    .p-i-body-entry {
-        text-align: center;
-        line-height: 100%;
-    }
 }
 
 
@@ -185,46 +147,6 @@ causes-text {
         flex-direction: column;
         align-items: center;
         float: left;
-    }
-
-    /* Header for Right Side of Main Page: "Endeavors Important to Me" */
-    .p-i-header-entry {
-        display: block;
-        text-align: center;
-        margin: 2% 0 0 0;
-    }
-
-    /* Container for an entry into "Endeavors Important to Me" */
-    .p-i-container-entry {
-        display: flex;
-        flex-direction: row;
-
-        max-height: max-content;
-        align-content: center;
-        align-items: center;
-        margin: 5% 5% 0 5%;
-    }
-
-    /* Header for Left Side of: "Endeavors Important to Me" */
-    .p-i-contatiner-button {
-        margin: auto 5% auto 0;
-    }
-
-    /* Container for a description */
-    .p-i-container-description {
-        position: relative;
-    }
-
-    /* Container for a title of cause */
-    .p-i-header-entry {
-        text-align: center;
-        margin: 0 0 2% 0;
-    }
-
-    /* Container for the body of cause */
-    .p-i-body-entry {
-        text-align: justify;
-        line-height: 75%;
     }
 
 
