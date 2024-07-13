@@ -1,5 +1,7 @@
 
-/* LANDSCAPE DEVICES */
+
+
+/* MOBILE DEVICES */
 @media only screen and (max-width: 600px) {
     iframe{
         border: 3px solid #000000;
@@ -9,52 +11,36 @@
         height: 250px;
     }
 
+    .p-c-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
 
-    .container{
+
+    .p-c-card-content{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     
         width: 85%;
-        flex: 1;
-    
-    }
-
-    .social-bttn{
-        border: none;
-        background-color: #ffffff00;
-        cursor: pointer;
     }
     
-    .work-bttn{
+    .p-c-work-button{
         text-align: center;
         cursor: pointer;
     }
     
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 10%;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    .main-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .container-header{
+    .p-c-card-header{
         display: block;
         text-align: center;
     
-        margin: 2% 0 2% 0;
+        margin: 2% 0 0 0;
     }
     
-    .map{
+    .p-c-map{
         display: block;
         margin: 2% 0 2% 0;
     }
@@ -70,50 +56,40 @@
         height: 325px;
     }
 
-    .social-bttn{
-        border: none;
-        background-color: #ffffff00;
-        text-align: center;
-        cursor: pointer;
-    }
-    
-    .work-bttn{
-        text-align: center;
-        cursor: pointer;
-    }
-    
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 10%;
-        justify-content: center;
-        align-content: center;
-    }
-    
-    .main-container{
+    .p-c-card{
         display: flex;
         flex-direction: column;
         align-items: center;
+
+
+        flex: 1;
     }
     
-    .container-header{
+    .p-c-work-button{
+        text-align: center;
+        cursor: pointer;
+    }
+    
+
+    
+    .p-c-card-header{
         display: block;
         text-align: center;
     
     }
-    
-    .map{
-        margin: 5% 0 0 0;
-    }
-    
-    .container {
+
+    .p-c-card-content {
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
     
         width: 75%;
-        flex: 1;
     }
+    
+    .p-c-map{
+        margin: 5% 0 0 0;
+    }
+    
+
 }

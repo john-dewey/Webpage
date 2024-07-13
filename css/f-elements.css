@@ -1,15 +1,16 @@
 .box{
     border: 3px solid #000000;
     background-color: #7c7c7c;
-    border-radius: 5%;
+    border-radius: 12px;
     padding: 5% 5% 5% 5%;
-    margin: 50px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 .page-header{
     display: block;
     text-align: center;
     margin: 1% 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .transparent{
@@ -21,7 +22,7 @@
     .box{
         border: 3px solid #000000;
         background-color: #7c7c7c;
-        border-radius: 5%;
+        border-radius: 25px;
         padding: 5% 5% 5% 5%;
         margin: 5% 0 0 0;
     }

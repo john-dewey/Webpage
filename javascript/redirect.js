@@ -30,21 +30,8 @@ function webpage() {
 	window.open('../../index.php', '_blank');
 }
 
-function social1() {
-	window.open('https://x.com/johnathan_dewey', '_blank');
-}
 
-function social2() {
-	window.open('mailto:jtdewey2@gmail.com', '_blank');
-}
 
-function social3() {
-	window.open('https://www.linkedin.com/in/jtdewey', '_blank');
-}
-
-function social4() {
-	window.open('https://github.com/john-dewey', '_blank');
-}
 function work() {
 	window.open('https://www.furman.edu/', '_blank');
 

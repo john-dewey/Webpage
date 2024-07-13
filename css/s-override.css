@@ -1,6 +1,8 @@
 header{
   position: fixed;
   width: 100%;
+  /* PRevent clipping from other objects*/
+  z-index: 1;
 }
 
 
