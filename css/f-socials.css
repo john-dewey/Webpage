@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for all Fa Fa Icon */
+.f-s-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10%;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Container for a single Fa Fa Icon */
+.f-s-icon {
+    border: none;
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    position: relative;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    /* Resizes Icon Box */
+    width: 10.625rem;
+    height: 10.625rem;
+}
+
+/* Icon: Resting State */
+.f-s-icon>i {
+    /* Resizes Icon */
+    font-size: 3rem;
+    color: #000000;
+    transition: all 0.2s;
+}
+
+/* Icon: Hover State; Expands Icon on Hover and changes color */
+.f-s-icon:hover>i {
+    scale: 1.5;
+    color: #f1f1f1;
+}
+
+/* Icon: Before State; Fills with icons corresponding color before returning to normal */
+.f-s-icon:before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+
+/* Icon: Before Hover State; Animates icon's color */
+.f-s-icon:hover:before {
+    animation: slide 0.7s forwards;
+}
+
+/* Animation States */
+@keyframes slide {
+    50% {
+        left: 10%;
+        top: -40%;
+    }
+
+    100% {
+        left: -15%;
+        top: -15%;
+    }
+}
+
+/* Linkedin Fill Color */
+.f-s-icon:has(.fa-linkedin-in) {
+    --color: #0077b5;
+}
+
+/* Google Fill Color */
+.f-s-icon:has(.fa-google) {
+    --color: #ff0000;
+}
+
+/* Twitter Fill Color */
+.f-s-icon:has(.fa-x-twitter) {
+    --color: #1da1f2;
+}
+
+/* Github Fill Color */
+.f-s-icon:has(.fa-github) {
+    --color: #333;
+}

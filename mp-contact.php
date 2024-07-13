@@ -72,6 +72,12 @@
 
             <!-- Social Information -->
             <div class="container box">
+            <?php
+            include 'f-socials.php';
+            ?>
+            </div>
+
+            <!-- <div class="container box">
                 <div class="grid">
                     <button class="social-bttn" onclick="social1()">
                         <div class="graphic-X"></div>
@@ -90,7 +96,7 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
     </div>
